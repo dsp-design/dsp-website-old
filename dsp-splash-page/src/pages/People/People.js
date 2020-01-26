@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import LocationMap from "./LocationMap";
+// import BPtrifold from "../Clients/BoutiquePractice/BPtrifold";
+// import DBtrifold from "../Clients/DesignBuild/DBtrifold";
+// import LCtrifold from '../Clients/LargeCompany/LCtrifold';
+import Trifold from "./Trifold"
 import "./css/people.css";
 import "./css/mediaPeople.css";
 
@@ -66,7 +70,11 @@ class People extends Component {
                 </div>
                 
                 <LocationMap />
-                
+											
+								{/* <DBtrifold/>
+								<LCtrifold/>
+                <BPtrifold/> */}
+								<Trifold/>
             </div>
         )
     };

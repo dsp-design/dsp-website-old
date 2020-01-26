@@ -58,7 +58,7 @@ import Login from "./pages/LogIn";
 
 
 // Components
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import NoMatch from "./components/NoMatch";
 import Background from "./components/Background";
 
@@ -74,21 +74,21 @@ class App extends Component {
             <Switch>
               {/* Home */}
               <Route exact path="/" component={Home} />
-              
+
 
               {/* About */}
               <Route exact path="/about/people" component={People} />
               <Route exact path="/about/projects" component={Projects} />
-              
-              
+
+
               {/* Blog */}
               <Route exact path="/blog" component={Blog} />
 
 
               {/* Approach */}
               <Route exact path="/approach" component={Approach} />
-              
-              
+
+
               {/* Clients */}
               <Route exact path="/clients" component={Clients} />
               <Route exact path="/clients/boutiquepractice" component={BoutiquePractice} />
@@ -104,7 +104,7 @@ class App extends Component {
 
               {/* Design Services */}
               <Route exact path="/designservices" component={DesignServices} />
-              
+
 
               {/* Join Us */}
               <Route exact path="/joinus" component={JoinUs} />

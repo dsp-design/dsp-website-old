@@ -42,6 +42,11 @@ import JoinUs from "./pages/JoinUs";
 import JobList from "./pages/JoinUs/JobList";
 import PartnerForm from "./pages/JoinUs/PartnerForm";
 import RemindForm from "./pages/JoinUs/RemindMeLater";
+
+
+// Privacy Policy
+import Privacy from "./pages/Privacy";
+
 // Recruit Forms
 import AdminForm from "./pages/JoinUs/RecruitForms/AdminForm";
 import ArchForm from "./pages/JoinUs/RecruitForms/ArchForm";
@@ -52,6 +57,7 @@ import InteriorsForm from "./pages/JoinUs/RecruitForms/InteriorsForm";
 import ManagementForm from "./pages/JoinUs/RecruitForms/ManagementForm";
 import MarketingForm from "./pages/JoinUs/RecruitForms/MarketingForm";
 import ServiceForm from "./pages/JoinUs/RecruitForms/ServiceForm";
+
 
 // Log in
 import Login from "./pages/LogIn";
@@ -111,6 +117,11 @@ class App extends Component {
               <Route exact path="/joinus/joblist" component={JobList} />
               <Route exact path="/joinus/partner" component={PartnerForm} />
               <Route exact path="/joinus/remind" component={RemindForm} />
+
+              {/* Privacy Policy */}
+              <Route exact path="/privacy" component={Privacy} />
+
+
               {/* Recruit Forms */}
               <Route exact path="/joinus/admin" component={AdminForm} />
               <Route exact path="/joinus/architecture" component={ArchForm} />

@@ -59,7 +59,7 @@
         height: 0;
     }
     to {
-        height: 10em;
+        height: 11em;
     }
 }
 
@@ -69,7 +69,7 @@
 
 @keyframes navSlantShrink {
     from {
-        height: 10em;
+        height: 11em;
     }
     to {
         height: 0;
@@ -121,28 +121,33 @@
 }
 
 #about {
-    bottom: 10.5em;
+    bottom: 11.5em;
     left: 72vw;
 }
 
 #approach {
-    bottom: 8.5em;
+    bottom: 9.5em;
     left: 68vw;
 }
 
 #clients {
-    bottom: 6.5em;
+    bottom: 7.5em;
     left: 64vw;
 }
 
 #services {
-    bottom: 4.5em;
+    bottom: 5.5em;
     left: 60vw;
 }
 
 #joinus {
-    bottom: 2.5em;
+    bottom: 3.5em;
     left: 56vw;
+}
+
+#privacy {
+    bottom: 1.5em;
+    left: 52vw;
 }
 
 #navFooter {

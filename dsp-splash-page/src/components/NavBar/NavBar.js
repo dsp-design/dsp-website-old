@@ -13,7 +13,8 @@ class NavBar extends Component {
 			{ to: "/approach", text: "approach", id: "approach" },
 			{ to: "/clients", text: "clients", id: "clients" },
 			{ to: "/designservices", text: "services", id: "services" },
-			{ to: "/joinus", text: "join us", id: "joinus" }
+            { to: "/joinus", text: "join us", id: "joinus" },
+            { to: "/privacy", text: "privacy policy", id: "privacy"}
 		],
 		footer: ["hello@dsp.design", "Join us", "Design Service Professionals, PLLC 2019 All rights reserved"],
 		navVisibility: "navHidden",

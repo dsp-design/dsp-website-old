@@ -70,10 +70,6 @@ class People extends Component {
                 </div>
                 
                 <LocationMap />
-											
-								{/* <DBtrifold/>
-								<LCtrifold/>
-                <BPtrifold/> */}
 								<Trifold/>
             </div>
         )

@@ -28,9 +28,9 @@
     },
     {
         "id": 3,
-        "picture": "/peopleImages/elspeth.png",
-        "sketch": "/peopleImages/elspeth-sketch.png",
-        "name": "Elspeth Anderson",
+        "picture": "/peopleImages/shane.png",
+        "sketch": "/peopleImages/shane-grey.png",
+        "name": "Shane Sumsion",
         "title": "Web Conjuror",
         "credentials": "Credentials",
         "about": ""
@@ -78,7 +78,7 @@
         "name": "Dianne Becker",
         "title": "IT Aficionado",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='text-justify'>Dianne is an IT Manager with over 25 years of industry experience working primarily with small firms as an IT Generalist Manager or managing global teams remotely for large e-commerce companies.  Dianne has a wide range of experience from working on high profile projects with Fortune 500 clients to training and supporting end-users as needed. Dianne manages and supports DSP’s systems, software, staff, and clients with Information Technology.</p><br/><p class='text-justify'>“It’s exciting to be part of a great team of talented professionals from everywhere. No limits on where we are and what we can do!”</p>"
     },
     {
         "id": 9,
@@ -100,9 +100,18 @@
     },
     {
         "id": 11,
-        "picture": "/peopleImages/mark.png",
-        "sketch": "/peopleImages/mark-sketch.png",
-        "name": "Mark Peterson",
+        "picture": "/peopleImages/adamS.png",
+        "sketch": "/peopleImages/adamS-sketch.png",
+        "name": "Adam Simmons",
+        "title": "Revit Guru",
+        "credentials": "Credentials",
+        "about": ""
+    },
+    {
+        "id": 12,
+        "picture": "/peopleImages/joe.png",
+        "sketch": "/peopleImages/joe-sketch.png",
+        "name": "Joe Moore",
         "title": "Revit Guru",
         "credentials": "Credentials",
         "about": ""

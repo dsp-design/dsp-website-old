@@ -90,7 +90,7 @@ class NavBar extends Component {
 								<a id="emailAddress" className="link" href="mailto:hello@dsp.design" onClick={() => { this.hamburger() }}><i className="far fa-envelope"></i> hello@dsp.design </a>
 							</div>
 							<div style={{ lineHeight: "25px" }}>
-								<a id="emailAddress" className="link" href="tel:+15108722133" ><i className="fa fa-phone" style={{ transform: 'rotate(90deg)' }}></i> 510.872.2133 </a>
+								<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')}  style={{ marginBottom: '-4px' }} height="13px" width="13px"/> 510.872.2133 </a>
 							</div>
 						</div>
 
@@ -119,7 +119,7 @@ class NavBar extends Component {
 						<a href="https://www.instagram.com/dsp.design_virtual/" target="blank"><i className="fab fa-instagram"></i></a>
 						<a href="https://www.facebook.com/dspdesignvirtual/" target="blank"><i className="fab fa-facebook"></i></a>
 						<a href="https://twitter.com/dspdesignUSA" target="blank"><i className="fab fa-twitter"></i></a>
-						<a href="tel:+15108722133" className="link socialIcon" target="" style={{ transform: 'rotate(90deg)' }}><i className="fa fa-phone"></i></a>
+						<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')} height="14px" width="14px"/></a>
 						<a href="mailto:hello@dsp.design"><i className="far fa-envelope"></i></a>
 						<Link to="/blog">blog</Link>
 					</div>

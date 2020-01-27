@@ -86,11 +86,11 @@ class NavBar extends Component {
 
 					<div id="navFooter" className="mt-3" >
 						<div>
-							<div>
+							<div style={{ marginTop: '-10px' }}>
 								<a id="emailAddress" className="link" href="mailto:hello@dsp.design" onClick={() => { this.hamburger() }}><i className="far fa-envelope"></i> hello@dsp.design </a>
 							</div>
-							<div style={{ lineHeight: "25px" }}>
-								<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')}  style={{ marginBottom: '-4px' }} height="13px" width="13px"/> 510.872.2133 </a>
+							<div style={{ lineHeight: "30px", marginTop: '-5px' }}>
+								<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')}  style={{ marginBottom: '-3px' }} height="13px" width="13px"/> 510.872.2133 </a>
 							</div>
 						</div>
 

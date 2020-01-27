@@ -24,6 +24,10 @@
     #joinus {
         left: 65vw;
     }
+
+    #privacy {
+        left: 63vw;
+    }
 }
 
 @media (min-width: 34em) and (max-height: 34em) {

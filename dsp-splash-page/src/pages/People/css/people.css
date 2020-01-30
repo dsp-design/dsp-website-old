@@ -37,6 +37,17 @@
     clear: both;
 }
 
+.peopleInfo {
+    font-family: 'Corbel', sans-serif;
+    text-align: left;
+}
+
+.peopleInfoQuote  {
+    font-family: 'Corbel', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
 .picContainer {
     width: 45%;
     display: inline-block;

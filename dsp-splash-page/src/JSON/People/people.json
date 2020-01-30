@@ -6,7 +6,7 @@
         "name": "Amy John",
         "title": "Design Integrator",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Amy is a Service Designer with over 5 years of industry experience working primarily with retail and professional service providers. Amy is a design integrator using design strategy to create holistically sustainable service experiences.</p><br/><p class='peopleInfoQuote'>“Knowledge and cake are always better when shared– especially at the same time.”</p>"
     },
     {
         "id": 1,
@@ -24,16 +24,16 @@
         "name": "Devan Porter",
         "title": "Augmentalist",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Devan is an Architect with over 15 years of industry experience working primarily on commercial office, institutional, and various other hospitality projects. Devan is a tech expert, employing digital design and virtual reality to be your workplace guru.</p><br/><p class='peopleInfoQuote'>“We exist to deliver your best work. High impact projects, thorough design communication, and stellar tools means we thrive together.”</p>"
     },
     {
         "id": 3,
         "picture": "/peopleImages/shane.png",
-        "sketch": "/peopleImages/shane-grey.png",
+        "sketch": "/peopleImages/shane-sketch.png",
         "name": "Shane Sumsion",
-        "title": "Web Conjuror",
+        "title": "Master Visualizer",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Shane is a Design Visualization Specialist with over 5 years of industry experience working primarily on residential, and institutional and various other commercial office and hospitality projects. Shane is an expert in interactive arts, using 3D illustration, virtual reality, and product visualization.</p><br/><p class='peopleInfoQuote'>“I am driven by seeing systems and groups use disparate tools and processes to do better – to do more.”</p>"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@
         "name": "Stacy Traeden",
         "title": "Team Protector",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Stacy is a Virtual Office Administrator with over 15 years of industry experience working primarily on project coordination, administrative management, and various other human resource projects. Stacy is passionate about project management and coordination utilizing her knowledge of relational database design and data reporting to provide a well-organized project experience.</p><br/><p class='peopleInfoQuote'>“Choose a job you love, and you will never have to work a day in your life.”</p>"
     },
     {
         "id": 5,
@@ -60,7 +60,7 @@
         "name": "Kara Hladky",
         "title": "Design Whisperer",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Kara is an Interior Designer with over 10 years of industry experience working primarily on hospitality and various other residential and commercial office projects. Kara is design innovator and sourcing and custom millwork expert with a focus on hospitality.</p><br/><p class='peopleInfoQuote'>“My strong desire to connect with and understand the world leaves me equally inspired by arts &amp; culture and the beauty of everyday objects.”</p>"
     },
     {
         "id": 7,
@@ -69,7 +69,7 @@
         "name": "Adam Nicholes",
         "title": "BIM Evangelist",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Adam is a BIM Manager with over 20 years of industry experience working primarily on institutional, educational, and various other commercial projects. Adam is solution-focused, task-orientated, information-driven, with a collaborative mindset.</p><br/><p class='peopleInfoQuote'>“If I’m not helping you do your job better or making it easier, I’m not doing my job.”</p>"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@
         "name": "Dianne Becker",
         "title": "IT Aficionado",
         "credentials": "Credentials",
-        "about": "<p class='text-justify'>Dianne is an IT Manager with over 25 years of industry experience working primarily with small firms as an IT Generalist Manager or managing global teams remotely for large e-commerce companies.  Dianne has a wide range of experience from working on high profile projects with Fortune 500 clients to training and supporting end-users as needed. Dianne manages and supports DSP’s systems, software, staff, and clients with Information Technology.</p><br/><p class='text-justify'>“It’s exciting to be part of a great team of talented professionals from everywhere. No limits on where we are and what we can do!”</p>"
+        "about": "<p class='peopleInfo'>Dianne is an IT Manager with over 25 years of industry experience working primarily with small firms as an IT Generalist Manager or managing global teams remotely for large e-commerce companies.  Dianne has a wide range of experience from working on high profile projects with Fortune 500 clients to training and supporting end-users as needed. Dianne manages and supports DSP’s systems, software, staff, and clients with Information Technology.</p><br/><p class='peopleInfoQuote'><i>“It’s exciting to be part of a great team of talented professionals from everywhere. No limits on where we are and what we can do!”</i></p>"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "name": "Norma Roles",
         "title": "Design Sage",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Norma is an Interior Designer with over 30 years of industry experience working primarily on institutional, commercial office, and various other hospitality projects. Norma is a healthcare and space planning expert with a focus on materials and finishes and FF&amp;E.</p><br/><p class='peopleInfoQuote'>“Best designed, easiest to build, beautiful in pictures, even better in real life.”</p>"
     },
     {
         "id": 10,
@@ -96,24 +96,24 @@
         "name": "Ellis Dionisio",
         "title": "Doc Guy",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Ellis is a Technical Specialist with over 15 years of industry experience working primarily on institutional, commercial office, residential, and various other hospitality projects. Ellis is an architecture and interiors expert with a talent for architecture photography, hand drawing, and hand detailing.</p><br/><p class='peopleInfoQuote'>“I am a confident, enthusiastic person with keen interest in my profession.”</p>"
     },
     {
         "id": 11,
         "picture": "/peopleImages/adamS.png",
         "sketch": "/peopleImages/adamS-sketch.png",
         "name": "Adam Simmons",
-        "title": "Revit Guru",
+        "title": "Innovation Station",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Adam is a BIM Manager with over 10 years of industry experience working primarily on institutional, commercial office, and other various other residential and hospitality projects. Adam is a problem solving, tech implementor and team strategist who prioritizes process.</p><br/><p class='peopleInfoQuote'>“I help solve big problems with meaningful process and appropriate technology”</p>"
     },
     {
         "id": 12,
         "picture": "/peopleImages/joe.png",
         "sketch": "/peopleImages/joe-sketch.png",
         "name": "Joe Moore",
-        "title": "Revit Guru",
+        "title": "Concept Realizer",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Joe is an Architect with over 20 years of industry experience working primarily on commercial office, residential, hospitality, and institutional projects. Joe is an experienced project manager with a focus on virtual reality, digital design, and workplace design.</p><br/><p class='peopleInfoQuote'>“Throughout my life I have been drawn to the built environment and a thirst to understand what makes it work.”</p>"
     }
 ]

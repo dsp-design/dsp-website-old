@@ -26,6 +26,13 @@ class People extends Component {
 		this.setState({popoverOpen: temp})
 	}
 
+	closeAll = () => {
+		let temp = this.state.popoverOpen;
+		temp = temp.fill(false)
+		this.setState({popoverOpen: temp})
+		console.log("test")
+	}
+
 	componentDidMount() {
 		window.scrollTo(0, 0);
 
@@ -72,7 +79,7 @@ class People extends Component {
 
 	render() {
 		return (
-			<div id="peopleBackground">
+			<div id="peopleBackground" onClick={() => this.closeAll()}>
 				<div id="peopleTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">we are . . . <span id="aboutUsBreak">design service professionals</span></div>
 				</div>

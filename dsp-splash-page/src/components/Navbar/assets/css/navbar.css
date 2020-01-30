@@ -111,6 +111,15 @@
     animation: navQsHide 0.2s forwards;
 }
 
+.navPrivacy {
+    color: #a9a9af;
+    font-family: 'Corbel', sans-serif !important;
+}
+
+.navPrivacy:hover {
+    color: #333132;
+}
+
 @keyframes navQsHide {
     from {
         opacity: 1;

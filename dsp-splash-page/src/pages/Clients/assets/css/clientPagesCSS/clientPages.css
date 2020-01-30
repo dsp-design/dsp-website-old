@@ -16,6 +16,7 @@
 .clientPageSteptitle {
     padding: 5px 10px;
     border-radius: 5px;
+    /* color: #f4f7fc !important; */
 }
 
 .step {
@@ -23,30 +24,36 @@
     font-weight: bold;
 }
 
+#clientPageStep0 > a,
+#clientPageStep1 > a,
+#clientPageStep2 > a,
+#clientPageStep3 > a,
+#clientPageStep4 > a 
+{
+    color: #f4f7fc !important;
+}
+
 #clientPageStep0 {
     margin-top: 5vh;
     background-color: #33313277;
-    color: #f4f7fc;
 }
+
 
 #clientPageStep1 {
     background-color: #3331329a;
-    color: #f4f7fc;
 }
+
 
 #clientPageStep2 {
     background-color: #333132b6;
-    color: #f4f7fc;
 }
 
 #clientPageStep3 {
     background-color: #333132d5;
-    color: #f4f7fc;
 }
 
 #clientPageStep4 {
     background-color: #333132;
-    color: #f4f7fc;
 }
 
 .clientPageStepInfo {

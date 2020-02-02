@@ -85,7 +85,7 @@ class NavBar extends Component {
 
 					<div id="navFooter" className="mt-3" >
 						<div>
-							<div style={{ marginTop: '-10px' }}>
+							<div style={{ marginTop: '-12px' }}>
 								<a id="emailAddress" className="link" href="mailto:hello@dsp.design" onClick={() => { this.hamburger() }}><i className="far fa-envelope"></i> hello@dsp.design </a>
 							</div>
 							<div style={{ lineHeight: "30px", marginTop: '-5px' }}>
@@ -101,10 +101,10 @@ class NavBar extends Component {
 							<a href="https://twitter.com/dspdesignUSA" className="link socialIcon" target="blank"><i className="fab fa-twitter"></i></a>
 						</div>
 						<div>
-							<div style={{ marginTop: '-8px' }}>	
+							<div style={{ marginTop: '-10px' }}>	
 							 <div id="navPLLC"><i className="far fa-copyright"></i> 2020 Design Service Professionals, PLLC All rights reserved</div>
 							</div>
-							<div style={{ lineHeight: "30px", marginTop: '-3px' }}>
+							<div style={{ lineHeight: "30px", marginTop: '-7px' }}>
 								<div id="navPLLC"><Link className="navPrivacy float-right" to='/privacy'>Privicy Policy</Link></div>
 							</div>
 						</div>

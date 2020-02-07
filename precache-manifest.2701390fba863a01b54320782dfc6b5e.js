@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e9edca07b768090b5664365f93da69e",
+    "revision": "d1c5108194d2d691bfc4d9c453ac5a31",
     "url": "/index.html"
   },
   {
-    "revision": "9b6a486e95ea7eb046b2",
-    "url": "/static/css/main.6d60997f.chunk.css"
+    "revision": "10cce35af5767ab2ab02",
+    "url": "/static/css/main.5e0d6e41.chunk.css"
   },
   {
-    "revision": "53a3f2be0c6f784518fd",
-    "url": "/static/js/2.df0fedc2.chunk.js"
+    "revision": "a71fb1ce2a202f08d626",
+    "url": "/static/js/2.ac36902d.chunk.js"
   },
   {
-    "revision": "9b6a486e95ea7eb046b2",
-    "url": "/static/js/main.e973f86c.chunk.js"
+    "revision": "10cce35af5767ab2ab02",
+    "url": "/static/js/main.31eae70a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -154,6 +154,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "737f51ac5832f7093f45c9157287c445",
     "url": "/static/media/projects.737f51ac.jpeg"
+  },
+  {
+    "revision": "410af1e0420508558ccb5c431835957e",
+    "url": "/static/media/trifold_1.410af1e0.png"
+  },
+  {
+    "revision": "52c18ab0ab8dacbb8590e71e4e4b3c33",
+    "url": "/static/media/trifold_2.52c18ab0.png"
+  },
+  {
+    "revision": "63513b70eddf272a2bc8e3dcf62bd081",
+    "url": "/static/media/trifold_3.63513b70.png"
   },
   {
     "revision": "742fc28ccfa6fffccf0b5c143ab99ec3",

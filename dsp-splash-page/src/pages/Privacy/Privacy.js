@@ -13,7 +13,7 @@ class Privacy extends Component {
 				<div id="privacyTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">DSP Privacy Policy </div>
 				</div>
-				<div className="container">
+				<div className="container" style={{marginTop: '3rem'}}>
 					<p className="mt-3 blockquote " id="approachParagraph"><b>Last updated: January, 2020</b></p>
 					<p className="text-justify" id="approachParagraph">Our Company operates http://www.dsp.design (the "Site"). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
 					<p className="text-justify" id="approachParagraph">We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>

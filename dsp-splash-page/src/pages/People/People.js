@@ -3,46 +3,27 @@ import LocationMap from "./LocationMap";
 import Trifold from "./Trifold"
 import "./css/people.css";
 import "./css/mediaPeople.css";
-import { Popover, PopoverBody, UncontrolledPopover } from "reactstrap";
+import { Popover,OverlayTrigger } from "react-bootstrap";
 
 import people from "../../JSON/People/people.json";
+
+
 
 class People extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			popoverOpen: [],
 			people,
 			pictures: []
 		};
 	}
 
-	toggle = (id) => {
-		let temp = this.state.popoverOpen;
-		let x = temp[id]
-		temp = temp.fill(false)
-		temp[id] = x
-		temp[id] = !temp[id]
-		this.setState({popoverOpen: temp})
-	}
-
-	closeAll = () => {
-		let temp = this.state.popoverOpen;
-		temp = temp.fill(false)
-		this.setState({popoverOpen: temp})
-		console.log("test")
-	}
 
 	componentDidMount() {
 		window.scrollTo(0, 0);
 
 		this.shuffleArray(this.state.people);
 
-
-		let popoverOpen = []
-		this.state.people.forEach(p => {
-			popoverOpen.push(false);
-		});
 
 
 		let picArr = [];
@@ -77,17 +58,32 @@ class People extends Component {
 		)
 	}
 
+	popoverClickRootClose = (data) => {
+		const popover = (
+			<Popover id="popover-trigger-click-root-close">
+				<div dangerouslySetInnerHTML={{ __html: data }}></div>
+			</Popover>
+		);
+
+		const empty = (<React.Fragment/>)
+		if(data === ''){
+			return empty
+		}
+		return(popover)
+	};
+
 	render() {
+		// var left = calculateMyOwnLeftPosition()
 		return (
-			<div id="peopleBackground" onClick={() => this.closeAll()}>
+			
+			<div id="peopleBackground">
 				<div id="peopleTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">we are . . . <span id="aboutUsBreak">design service professionals</span></div>
 				</div>
-
 				<div id="peoplePicBox">
 					{this.state.people.map((person, i) => (
-						<React.Fragment >
-							<div className="picContainer" id={`Popover${person.id}`} >
+						<OverlayTrigger key={i} trigger="click" rootClose placement={(window.innerWidth > '768') ? "right"  : "bottom"}  overlay={this.popoverClickRootClose(person.about)}>
+							<div className="picContainer" id={`Popover${person.id}`}>
 								<img src={process.env.PUBLIC_URL + this.state.pictures[i]}
 									onMouseOver={() => { this.handleMouseOver(i, person.picture) }}
 									onMouseOut={() => { this.handleMouseOver(i, person.sketch) }}
@@ -95,12 +91,7 @@ class People extends Component {
 								<div className="peopleName">{person.name}</div>
 								<div className="peopleTagline">{`"${person.title}"`}</div>
 							</div>
-							{(person.about.length > 0) ?
-							<Popover placement="right" isOpen={this.state.popoverOpen[person.id]} target={`Popover${person.id}`} toggle={() => this.toggle(person.id)}>
-								<PopoverBody><div dangerouslySetInnerHTML={{ __html: person.about }}></div></PopoverBody>
-								</Popover > : <Popover placement="right" isOpen={this.state.popoverOpen[person.id]} target={`Popover${person.id}`} toggle={() => this.toggle(person.id)}></Popover>
-							}
-						</React.Fragment>
+						</OverlayTrigger>
 					))}
 				</div>
 

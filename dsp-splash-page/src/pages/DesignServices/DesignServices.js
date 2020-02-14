@@ -45,10 +45,10 @@ class DesignServices extends Component {
                 <NoSlant
                     title="dsp.interiors"
                 >
-                    {this.state.interiors.map(interior => (
-                        <div className="dsInfoColumn">
+                    {this.state.interiors.map((interior,i) => (
+                        <div className="dsInfoColumn" key={i}>
                             <Popup
-                                trigger={<Link to="#" className="darkDSInfoTrigger centeredPopup">{interior.leftIdea}</Link>}
+                                trigger={<p style={{ cursor: "pointer" }} className="darkDSInfoTrigger centeredPopup">{interior.leftIdea}</p>}
                                 position="top center"
                                 closeOnDocumentClick
                                 contentStyle={{
@@ -74,7 +74,7 @@ class DesignServices extends Component {
                     {this.state.arch.map(arch => (
                         <div className="dsInfoColumn">
                             <Popup
-                                trigger={<Link to="#" className="whiteDSInfoTrigger centeredPopup">{arch.leftIdea}</Link>}
+                                trigger={<p style={{cursor: "pointer"}} className="whiteDSInfoTrigger centeredPopup">{arch.leftIdea}</p>}
                                 position="top center"
                                 closeOnDocumentClick
                                 contentStyle={{
@@ -110,7 +110,7 @@ class DesignServices extends Component {
                     {this.state.digital.map(digit => (
                         <div className="dsInfoColumn">
                             <Popup
-                                trigger={<Link to="#" className="whiteDSInfoTrigger centeredPopup">{digit.leftIdea}</Link>}
+                                trigger={<p style={{ cursor: "pointer" }} className="whiteDSInfoTrigger centeredPopup">{digit.leftIdea}</p>}
                                 position="top center"
                                 closeOnDocumentClick
                                 contentStyle={{
@@ -146,7 +146,7 @@ class DesignServices extends Component {
                     {this.state.service.map(service => (
                         <div className="dsInfoColumn">
                             <Popup
-                                trigger={<Link to="#" className="whiteDSInfoTrigger centeredPopup">{service.leftIdea}</Link>}
+                                trigger={<p style={{ cursor: "pointer" }} className="whiteDSInfoTrigger centeredPopup">{service.leftIdea}</p>}
                                 position="top center"
                                 closeOnDocumentClick
                                 contentStyle={{

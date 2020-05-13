@@ -1,11 +1,20 @@
 .slantTitle {
     height: 5vh;
-    padding-left: 20vw;
+    /* padding-left: 20vw; */
     font-size: 140%;
 }
 
+.allow {
+    cursor: pointer;
+}
+
 .slantInfoWrapper {
-    padding: 0 10vw 0 26vw;
+    padding: 6vw;
+    /* padding: 0 10vw 0 26vw; */
+}
+
+.slantImage {
+    max-width: 100%;
 }
 
 .slantUp {

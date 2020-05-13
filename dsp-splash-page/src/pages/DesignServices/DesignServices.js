@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import "./css/designServices.css";
 import "./css/mediaDesignServices.css";
@@ -39,42 +38,18 @@ class DesignServices extends Component {
 
                 <SlantTop
                     color="charcoalish-background"
-                    title="dsp.design"
+                    title="dsp.design services"
                 />
 
                 <NoSlant
-                    title="dsp.interiors"
-                >
-                    {this.state.interiors.map((interior,i) => (
-                        <div className="dsInfoColumn" key={i}>
-                            <Popup
-                                trigger={<p style={{ cursor: "pointer" }} className="darkDSInfoTrigger centeredPopup">{interior.leftIdea}</p>}
-                                position="top center"
-                                closeOnDocumentClick
-                                contentStyle={{
-                                    "border": "none",
-                                    "border-radius": "2%",
-                                    "background-color": "#f4f7fc",
-                                    "padding": "20px",
-                                    "font-size": "110%",
-                                    "color": "#757579"
-                                }}
-                            >
-                                <div className="popupWords nightBlue-text">{interior.rightVerbiage}</div>
-                            </Popup>
-                        </div>
-                    ))}
-                </NoSlant>
-
-                <SlantUp
-                    background="green-background"
-                    titleColor="slateWhite-text"
                     title="dsp.architecture"
-                >
+                    image={require("../../Images/ServicePage/dsp-architecture.png")}
+                    link={true}
+                >   
                     {this.state.arch.map(arch => (
                         <div className="dsInfoColumn">
                             <Popup
-                                trigger={<p style={{cursor: "pointer"}} className="whiteDSInfoTrigger centeredPopup">{arch.leftIdea}</p>}
+                                trigger={<p style={{cursor: "pointer"}} className="darkDSInfoTrigger centeredPopup">{arch.leftIdea}</p>}
                                 position="top center"
                                 closeOnDocumentClick
                                 contentStyle={{
@@ -90,10 +65,41 @@ class DesignServices extends Component {
                             </Popup>
                         </div>
                     ))}
+                    
+                </NoSlant>
+
+                <SlantUp
+                    background="green-background"
+                    titleColor="slateWhite-text"
+                    title="dsp.interiors"
+                    image={require("../../Images/ServicePage/dsp-interiors.png")}
+                    link={true}
+                >
+                    {this.state.interiors.map((interior,i) => (
+                        <div className="dsInfoColumn" key={i}>
+                            <Popup
+                                trigger={<p style={{ cursor: "pointer" }} className="whiteDSInfoTrigger centeredPopup">{interior.leftIdea}</p>}
+                                position="top center"
+                                closeOnDocumentClick
+                                contentStyle={{
+                                    "border": "none",
+                                    "border-radius": "2%",
+                                    "background-color": "#f4f7fc",
+                                    "padding": "20px",
+                                    "font-size": "110%",
+                                    "color": "#757579"
+                                }}
+                            >
+                                <div className="popupWords nightBlue-text">{interior.rightVerbiage}</div>
+                            </Popup>
+                        </div>
+                    ))}
                 </SlantUp>
 
                 <NoSlant
                     title="dsp.graphics"
+                    image={require("../../Images/ServicePage/dsp-graphics.png")}
+                    link={true}
                 >
                     {this.state.graphics.map(graphic => (
                         <div className="dsInfoColumn">
@@ -106,6 +112,8 @@ class DesignServices extends Component {
                     background="nightBlue-background"
                     titleColor="slateWhite-text"
                     title="dsp.digital"
+                    image={require("../../Images/ServicePage/dsp-digital.png")}
+                    link={true}
                 >
                     {this.state.digital.map(digit => (
                         <div className="dsInfoColumn">
@@ -130,6 +138,8 @@ class DesignServices extends Component {
 
                 <NoSlant
                     title="dsp.brand"
+                    image={require("../../Images/ServicePage/dsp-brand.png")}
+                    link={true}
                 >
                     {this.state.brand.map(brand => (
                         <div className="dsInfoColumn">
@@ -141,7 +151,9 @@ class DesignServices extends Component {
                 <SlantUp
                     background="green-background"
                     titleColor="slateWhite-text"
+                    link={true}
                     title="dsp.service"
+                    image={require("../../Images/ServicePage/dsp-service.png")}
                 >
                     {this.state.service.map(service => (
                         <div className="dsInfoColumn">
@@ -166,6 +178,8 @@ class DesignServices extends Component {
 
                 <NoSlant
                     title="dsp.industrial"
+                    image={require("../../Images/ServicePage/dsp-industrial.png")}
+                    link={true}
                 >
                     {this.state.industrial.map(industrial => (
                         <div className="dsInfoColumn">

@@ -36,6 +36,11 @@ import LearnMore from "./pages/Clients/Contact";
 // Design Services
 import DesignServices from "./pages/DesignServices";
 
+//PhotoMatrix
+import PhotoMatrix from "./pages/PhotoMatrix";
+
+//PhotoGallery
+import PhotoGallery from './pages/PhotoGallery';
 
 // Join Us
 import JoinUs from "./pages/JoinUs";
@@ -68,6 +73,9 @@ import NavBar from "./components/NavBar";
 import NoMatch from "./components/NoMatch";
 import Background from "./components/Background";
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class App extends Component {
 
@@ -110,8 +118,11 @@ class App extends Component {
 
               {/* Design Services */}
               <Route exact path="/designservices" component={DesignServices} />
-
-
+              
+              {/* PhotoMatrix */}
+              <Route exact path="/photomatrix/:id" component={PhotoMatrix} />
+              {/* PhotoGallery */}
+              <Route exact path="/photogallery/:id" component={PhotoGallery} />
               {/* Join Us */}
               <Route exact path="/joinus" component={JoinUs} />
               <Route exact path="/joinus/joblist" component={JobList} />
@@ -132,7 +143,7 @@ class App extends Component {
               <Route exact path="/joinus/management" component={ManagementForm} />
               <Route exact path="/joinus/marketing" component={MarketingForm} />
               <Route exact path="/joinus/service" component={ServiceForm} />
-
+              
 
               {/* Log In */}
               <Route exact path="/login" component={Login} />

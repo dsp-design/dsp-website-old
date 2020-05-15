@@ -62,7 +62,7 @@ class PhotoMatrix extends Component {
           },
           {
             name: "dsp.industrial", projects: [
-                { name: '', image: require('../../Images/PhotoMatrix/_1000-1000.jpg')},
+                { name: '', image: require('../../Images/PhotoMatrix/dsp-no-image.jpg')},
                 { name: '', image: require('../../Images/PhotoMatrix/DSP-Empty-Watermark.jpg')},
                 { name: '', image: require('../../Images/PhotoMatrix/DSP-Empty-Watermark.jpg')},
                 { name: '', image: require('../../Images/PhotoMatrix/DSP-Empty-Watermark.jpg')},            

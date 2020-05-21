@@ -46,7 +46,7 @@ class Approach extends Component {
             >
               <div className="popupWords nightBlue-text">{ideas[0].verbiage}</div>
             </Popup>
-            specializing in design services for the AEC Industry.
+             specializing in design services for the AEC Industry.
           </div>
 
           <div id="approachParagraph">
@@ -162,7 +162,7 @@ class Approach extends Component {
         <SlantUp background="salmon-background" titleColor="slateWhite-text" title="we are...">
           <div className="infoWords slateWhite-text">
             ...<span className="bold">building an ecosystem</span> of design professionals that
-            kicks butt for our clients
+            kills it for our clients
           </div>
           <div className="infoWords slateWhite-text">
             ...<span className="bold">creating a platform</span> for design services that will lead
@@ -271,7 +271,7 @@ class Approach extends Component {
 
         <SlantUp background="salmon-background" titleColor="slateWhite-text" title="how? by...">
           <div className="infoWords slateWhite-text">
-            ...<span className="bold">leveraging technology</span> to connect, collaborate and
+            ...<span className="bold">leveraging technology</span> to connect, collaborate, and
             create in the cloud
           </div>
           <div className="infoWords slateWhite-text">
@@ -279,7 +279,7 @@ class Approach extends Component {
             <span className="bold">at the right time</span>
           </div>
           <div className="infoWords slateWhite-text">
-            ...delivering <span className="bold">high quality</span> design services from{" "}
+            ...delivering <span className="bold">high-quality</span> design services from{" "}
             <span className="bold">start to finish</span>
           </div>
           <div className="infoWords slateWhite-text">

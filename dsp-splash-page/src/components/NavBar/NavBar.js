@@ -102,10 +102,7 @@ class NavBar extends Component {
 						</div>
 						<div>
 							<div style={{ marginTop: '10px' }}>	
-							 <div id="navPLLC"><i className="far fa-copyright"></i> 2020 Design Service Professionals, PLLC All rights reserved</div>
-							</div>
-							<div style={{ lineHeight: "30px", marginTop: '-7px' }}>
-								<div id="navPLLC"><Link className="navPrivacy float-right" to='/privacy'>Privicy Policy</Link></div>
+							 <div id="navPLLC"><div id="navPLLC"><Link className="navPrivacy float-right" to="/privacy"><i className="far fa-copyright"></i> 2020 Design Service Professionals, PLLC All rights reserved</Link></div></div>
 							</div>
 						</div>
 							

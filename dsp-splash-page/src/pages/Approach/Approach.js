@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Popup from "reactjs-popup";
-import { Link } from "react-router-dom";
 
 // Components
 import SlantTop from "../../components/SlantTop";
@@ -13,7 +12,6 @@ import "./css/mediaApproach.css";
 
 // Files
 import ideas from "../../JSON/home.json";
-import { LinkContainer } from "react-router-bootstrap";
 
 class Approach extends Component {
   state = {
@@ -33,7 +31,7 @@ class Approach extends Component {
           <div id="approachParagraph">
             ...an
             <Popup
-              trigger={<text className="bold link"> all-virtual design collaborative</text>}
+              trigger={<text className="bold link"> all-virtual design collaborative </text>}
               position="top center"
               closeOnDocumentClick
               contentStyle={{
@@ -47,6 +45,10 @@ class Approach extends Component {
               <div className="popupWords nightBlue-text">{ideas[0].verbiage}</div>
             </Popup>
              specializing in design services for the AEC Industry.
+          </div>
+
+          <div id="approachParagraph">
+             We are a collection of design professionals with no front door. We leverage co-working facilities to provide settings for individual work, small meetings and team conferences as needed. Keeping overhead costs low allows us to provide premium design services at a competitive rate.
           </div>
 
           <div id="approachParagraph">

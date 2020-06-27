@@ -15,7 +15,7 @@
         "name": "Deborah Killpack",
         "title": "Team Wrangler",
         "credentials": "Credentials",
-        "about": ""
+        "about": "<p class='peopleInfo'>Deborah is a Virtual Office Administrator with over 20 years of industry experience working primarily on finance management, team management, builder-based interior design and various other human resource projects. Deborah is organized, adaptable, and perceptive, balancing a natural design sense with an analytical approach.</p><br/><p class='peopleInfoQuote'>“Dwell in possibility”</p>"
     },
     {
         "id": 2,
@@ -115,5 +115,14 @@
         "title": "Concept Realizer",
         "credentials": "Credentials",
         "about": "<p class='peopleInfo'>Joe is an Architect with over 20 years of industry experience working primarily on commercial office, residential, hospitality, and institutional projects. Joe is an experienced project manager with a focus on virtual reality, digital design, and workplace design.</p><br/><p class='peopleInfoQuote'>“Throughout my life I have been drawn to the built environment and a thirst to understand what makes it work.”</p>"
+    },
+    {
+        "id": 13,
+        "picture": "/peopleImages/jeff.png",
+        "sketch": "/peopleImages/jeff-sketch.png",
+        "name": "Jeff Nunez",
+        "title": "Bridge Builder",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Jeff is a Job Captain and Business Developer with over 5 years of industry experience working primarily on commercial, institutional, and residential projects. Jeff’s focus on workplace culture and relationship building makes him business marketing specialist who uses design to solve complex challenges in this evolving profession.</p><br/><p class='peopleInfoQuote'>“I love making people laugh and sharing stories. Together we can continually push for new adventures– and eat a lot of food.”</p>"
     }
 ]

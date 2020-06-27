@@ -162,7 +162,7 @@ Recognition: Confidential Client`
                                 require('../../Images/ProjectGallery/D - 1001-1001 (Bradley)/1001-1001_RES_15_Office.png'),
                                 require('../../Images/ProjectGallery/D - 1001-1001 (Bradley)/1001-1001_RES_16_Pool.png'),
                             ],
-                            desc: `14,000 sf Single Family Residence<br>
+                            desc: `14,000 sf Single Family Residence
 Expertise: #BIM #visualization #digitaldesign #unreal #immersive #flythru
 Recognition: Axelrod Architects`
                         },
@@ -340,7 +340,7 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
                     <div className="row gallery-background m-0">
                         <div className="col-xs-12 col-md-11 panel-div">
                             <Link to={`/photomatrix/${this.state.selectedService.name}`}>
-                                <p className="cat-head" style={{ paddingLeft: 0, paddingRight: 0 }}><span style={{ borderRadius: 25, background: 'black', marginRight: 5, padding: 2}}><i class="fas fa-arrow-left"></i></span>back to portfolio matrix</p> 
+                                <p className="cat-head" style={{ paddingLeft: 0, paddingRight: 0 }}><span style={{ borderRadius: 25, background: 'black', marginRight: 5, padding: 2}}><i className="fas fa-arrow-left"></i></span>back to portfolio matrix</p>
                             </Link>
                             <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.tabSelected(tabIndex) }>
                                 <TabList>

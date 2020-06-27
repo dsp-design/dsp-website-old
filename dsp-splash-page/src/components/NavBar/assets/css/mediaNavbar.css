@@ -8,19 +8,19 @@
     #about {
         left: 73vw;
     }
-    
+
     #approach {
         left: 71vw;
     }
-    
+
     #clients {
         left: 69vw;
     }
-    
+
     #services {
         left: 67vw;
     }
-    
+
     #joinus {
         left: 65vw;
     }
@@ -43,7 +43,7 @@
         visibility: visible;
         animation: none;
     }
-    
+
     #navSlant,
     #navSlantGrow,
     #navSlantShrink,
@@ -51,13 +51,13 @@
         display: none;
         animation: none;
     }
-    
+
     .navQs,
     #navFooter {
         position: initial;
         display: initial;
     }
-    
+
     .navQsShow,
     #footerJoinShow,
     .navQsHide,
@@ -73,11 +73,11 @@
     #nav {
         padding: 1vh 13vw;
     }
-    
+
     #navImage {
         flex: 1;
     }
-    
+
     #navCenter {
         flex: 4;
         height: 5vh;
@@ -85,7 +85,7 @@
         flex-flow: column;
         justify-content: space-between;
     }
-    
+
     #navWords {
         display: flex;
         justify-content: space-around;
@@ -112,7 +112,8 @@
     #socialIconWrapper {
         display: flex;
         justify-content: space-between;
-        width: 8em;
+        width: 15em;
+        margin-left: 5em;
     }
 
     #emailAddress,

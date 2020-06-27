@@ -23,7 +23,9 @@ class NavBar extends Component {
 		hamLine2: "",
 		hamLine3: "",
 		navSlant: "navSlant",
-		socialScroll: "socialCloseScroll"
+		socialScroll: "socialCloseScroll",
+		emailShow: false,
+		PhoneShow: false
 	};
 
 	hamburger = () => {
@@ -84,28 +86,23 @@ class NavBar extends Component {
 					</div>
 
 					<div id="navFooter" className="mt-3" >
-						<div>
-							<div style={{ marginTop: '10px' }}>
-								<a id="emailAddress" className="link" href="mailto:hello@dsp.design" onClick={() => { this.hamburger() }}><i className="far fa-envelope"></i> hello@dsp.design </a>
-							</div>
-							<div style={{ lineHeight: "30px", marginTop: '-5px' }}>
-								<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')} style={{ marginBottom: '-3px' }} height="13px" width="13px" /> 510.872.2133 </a>
-							</div>
-						</div>
-
 
 						<div id="socialIconWrapper" style={{ marginTop: '10px' }}>
+						{ this.state.emailShow ? "hello@dsp.design" : null }
+						{ this.state.PhoneShow ? " 510.872.2133 " : null }
+							<a id="phoneIcon" className="link socialIcon" onClick={ () => { this.setState({ PhoneShow: !this.state.PhoneShow }); }} ><img src={require('./assets/images/PhoneIcon.png')} style={{ marginBottom: '-3px' }} height="13px" width="13px" /> </a>
+							<a id="emailIcon" className="link socialIcon" onClick={ () => { this.setState({ emailShow: !this.state.emailShow }); }}><i className="far fa-envelope"></i> </a>
 							<a href="https://www.linkedin.com/company/designserviceprofessionalspllc/" className="link socialIcon" target="blank"><i className="fab fa-linkedin-in"></i></a>
 							<a href="https://www.instagram.com/dsp.design_virtual/" className="link socialIcon" target="blank"><i className="fab fa-instagram"></i></a>
 							<a href="https://www.facebook.com/dspdesignvirtual/" className="link socialIcon" target="blank"><i className="fab fa-facebook"></i></a>
 							<a href="https://twitter.com/dspdesignUSA" className="link socialIcon" target="blank"><i className="fab fa-twitter"></i></a>
 						</div>
 						<div>
-							<div style={{ marginTop: '10px' }}>	
+							<div style={{ marginTop: '10px' }}>
 							 <div id="navPLLC"><div id="navPLLC"><Link className="navPrivacy float-right" to="/privacy"><i className="far fa-copyright"></i> 2020 Design Service Professionals, PLLC All rights reserved</Link></div></div>
 							</div>
 						</div>
-							
+
 					</div>
 
 				</div>
@@ -136,4 +133,3 @@ class NavBar extends Component {
 };
 
 export default NavBar;
-	

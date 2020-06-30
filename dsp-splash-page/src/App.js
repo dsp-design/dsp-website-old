@@ -52,6 +52,9 @@ import RemindForm from "./pages/JoinUs/RemindMeLater";
 // Privacy Policy
 import Privacy from "./pages/Privacy";
 
+// Org chart
+import Org from "./pages/Org";
+
 // Recruit Forms
 import AdminForm from "./pages/JoinUs/RecruitForms/AdminForm";
 import ArchForm from "./pages/JoinUs/RecruitForms/ArchForm";
@@ -118,7 +121,7 @@ class App extends Component {
 
               {/* Design Services */}
               <Route exact path="/designservices" component={DesignServices} />
-              
+
               {/* PhotoMatrix */}
               <Route exact path="/photomatrix/:id" component={PhotoMatrix} />
               {/* PhotoGallery */}
@@ -132,6 +135,8 @@ class App extends Component {
               {/* Privacy Policy */}
               <Route exact path="/privacy" component={Privacy} />
 
+              {/* Org chart */}
+              <Route exact path="/org" component={Org} />
 
               {/* Recruit Forms */}
               <Route exact path="/joinus/admin" component={AdminForm} />
@@ -143,7 +148,7 @@ class App extends Component {
               <Route exact path="/joinus/management" component={ManagementForm} />
               <Route exact path="/joinus/marketing" component={MarketingForm} />
               <Route exact path="/joinus/service" component={ServiceForm} />
-              
+
 
               {/* Log In */}
               <Route exact path="/login" component={Login} />

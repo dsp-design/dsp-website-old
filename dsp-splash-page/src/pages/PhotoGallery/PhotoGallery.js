@@ -235,7 +235,8 @@ Expertise: #schematic #experiencedesign #branding #graphics`
                             images: [
                                 require('../../Images/ProjectGallery/B - 1012-1001 (BigD)/1012-1001-IP-01-1st_Fl-Rec_Lobby.jpg'),
                                 require('../../Images/ProjectGallery/B - 1012-1001 (BigD)/1012-1001-IP-01-1st_Fl-Reception.jpg'),
-                              
+                                require('../../Images/ProjectGallery/dsp-no-image.jpg')
+
                             ],
                             desc: `61,500 sf Office Renovation and Rebranding
 Expertise: #schematic #experiencedesign #branding 

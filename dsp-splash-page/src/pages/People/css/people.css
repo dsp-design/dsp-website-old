@@ -27,7 +27,7 @@
 }
 
 #peoplePicBox {
-    padding: 25vh 5vw 8vh;
+    padding: 35vh 5vw 8vh;
     text-align: center;
 }
 
@@ -53,7 +53,7 @@
     display: inline-block;
     margin-right: 1.6vw;
     margin-bottom: 5vh;
-    text-align: center;    
+    text-align: center;
 }
 
 .peoplePic {
@@ -104,4 +104,30 @@
 #blogButtonWords:hover {
     background-color: #f4f7fc;
     color: #b2d08d;
+}
+
+.aboutUsPara{
+    color: #ffffff;
+    /*padding: 2vh 10vh 3vh;*/
+}
+
+@media (min-width: 36em) {
+
+    .aboutUsPara{
+        padding: 0;
+    }
+}
+
+@media (min-width: 48em) {
+
+    .aboutUsPara{
+        padding: 2px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+    #peoplePicBox {
+        padding: 43vh 7vw 8vh !important;
+    }
 }

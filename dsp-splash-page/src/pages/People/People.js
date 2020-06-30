@@ -75,10 +75,13 @@ class People extends Component {
 	render() {
 		// var left = calculateMyOwnLeftPosition()
 		return (
-			
+
 			<div id="peopleBackground">
 				<div id="peopleTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">we are . . . <span id="aboutUsBreak">design service professionals</span></div>
+<div id="aboutUsPara" className="aboutUsPara">
+					...an all-virtual design collaborative specializing in design services for the AEC Industry.
+Leveraging a diverse reservoir of design professionals, our staff augmentation program, coupled with an eclectic mix of industry experts, allows us to assemble the right team at the right time for our clients & AEC partners.</div>
 				</div>
 				<div id="peoplePicBox">
 					{this.state.people.map((person, i) => (

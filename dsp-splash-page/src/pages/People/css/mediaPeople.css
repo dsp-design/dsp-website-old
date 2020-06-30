@@ -1,6 +1,6 @@
-@media (min-width: 36em) { 
+@media (min-width: 36em) {
     #peoplePicBox {
-        padding: 25vh 7vw 8vh;
+        padding: 45vh 7vw 8vh;
     }
 
     .peoplePic {
@@ -25,7 +25,7 @@
     .picContainer {
         width: 30%;
     }
-    
+
     .peoplePic {
         width: 15vw;
         height: 15vw;
@@ -43,9 +43,9 @@
     }
 
     #peoplePicBox {
-        padding-top: 26vh;
+        padding-top: 40vh;
     }
-    
+
     .peoplePic {
         width: 12vw;
         height: 12vw;
@@ -63,13 +63,13 @@
     }
 
     #peoplePicBox {
-        padding: 23vh 15vw 8vh;
+        padding: 40vh 15vw 8vh;
     }
 
     .picContainer {
         width: 20%;
     }
-    
+
     .peoplePic {
         width: 10vw;
         height: 10vw;

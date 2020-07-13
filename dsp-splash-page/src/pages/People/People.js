@@ -80,8 +80,7 @@ class People extends Component {
 				<div id="peopleTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">we are . . . <span id="aboutUsBreak">design service professionals</span></div>
 <div id="aboutUsPara" className="aboutUsPara">
-					...an all-virtual design collaborative specializing in design services for the AEC Industry.
-Leveraging a diverse reservoir of design professionals, our staff augmentation program, coupled with an eclectic mix of industry experts, allows us to assemble the right team at the right time for our clients & AEC partners.</div>
+					Our purpose... to create work-life opportunities for talented designers coast to coast; to establish a moce of design that values collaboration above ege; to elevate the best in our clients, so we can achieve more together.</div>
 				</div>
 				<div id="peoplePicBox">
 					{this.state.people.map((person, i) => (

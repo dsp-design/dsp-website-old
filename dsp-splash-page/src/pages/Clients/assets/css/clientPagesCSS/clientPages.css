@@ -28,9 +28,10 @@
 #clientPageStep1 > a,
 #clientPageStep2 > a,
 #clientPageStep3 > a,
-#clientPageStep4 > a 
+#clientPageStep4 > a
 {
     color: #f4f7fc !important;
+    display: block;
 }
 
 #clientPageStep0 {
@@ -72,7 +73,7 @@
     box-shadow: 0 0 10px #757579;
     width: 95vw;
     margin: auto;
-    padding: 4px;    
+    padding: 4px;
 }
 
 .clientPageServiceWrapper {
@@ -140,4 +141,34 @@
     box-shadow: 0 0 5px #333132;
     transform: rotate(-10deg);
     z-index: 998;
+}
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+.panel-title > a:before {
+	-webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+	float: right !important;
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 2em;
+	content: "\f106";
+
+    line-height: 1;
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 2em;
+    content: "\f107";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus  {
+    text-decoration:none;
 }

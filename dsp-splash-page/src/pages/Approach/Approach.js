@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Popup from "reactjs-popup";
 
 // Components
-import SlantTop from "../../components/SlantTop";
-import SlantUp from "../../components/SlantInfo/SlantUp";
-import SlantDown from "../../components/SlantInfo/SlantDown";
-import NoSlant from "../../components/SlantInfo/NoSlant";
+import SlantTop from "../../components/SlantAppTop";
+import SlantUp from "../../components/SlantAppInfo/SlantUp";
+import SlantDown from "../../components/SlantAppInfo/SlantDown";
+import NoSlant from "../../components/SlantAppInfo/NoSlant";
 
 import "./css/approach.css";
 import "./css/mediaApproach.css";

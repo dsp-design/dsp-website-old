@@ -7,15 +7,15 @@ import './css/photogallery.css';
 import { Link } from "react-router-dom";
 
 class PhotoGallery extends Component {
-    
+
     constructor(props) {
         super(props);
         this.state = {
             services: [
                 {
                     name: "dsp.architecture", projects: [
-                        { 
-                            name: 'Axelrod', id: 1, image: require('../../Images/PhotoMatrix/A-1001-1001.jpg'), 
+                        {
+                            name: 'Axelrod', id: 1, image: require('../../Images/PhotoMatrix/A-1001-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/A - 1001-1001 (Bradley)/1001-1001_RES_01_Porch.png'),
                                 require('../../Images/ProjectGallery/A - 1001-1001 (Bradley)/1001-1001_3D SECT_GRD 4.jpg'),
@@ -39,7 +39,7 @@ class PhotoGallery extends Component {
 Expertise: #sitedesign #constructiondocs #BIM #FF&E #detailing #visualization
 Recognition: Axelrod Architects`
                         },
-                        {   
+                        {
                             name: 'Archiplex', id: 2, image: require('../../Images/PhotoMatrix/A-1004-1001.jpg'),
                             images: [
                                 require('../../Images/PhotoMatrix/A-1004-1001.jpg'),
@@ -54,10 +54,10 @@ Recognition: Axelrod Architects`
                                 require('../../Images/ProjectGallery/A - 1004-1001 (St Olaf)/1004-1001_SH_02.jpg')
                             ],
                             desc: `14,400 sf Secondary School
-Expertise: #BIM #constructiondocs 
+Expertise: #BIM #constructiondocs
 Recognition: Archiplex`
                         },
-                        { 
+                        {
                             name: 'Bateman', id: 3, image: require('../../Images/PhotoMatrix/A-1013-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/A - 1013-001 (Bateman)/1013-1001_FI_02.jpg'),
@@ -76,7 +76,7 @@ Recognition: BWS Architects`
                 },
                 {
                     name: "dsp.interiors", projects: [
-                        { 
+                        {
                             name: 'Axelrod', id: 1, image: require('../../Images/PhotoMatrix/I-1001-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/I - 1001-1001 (Bradley)/1001-1001_RES_14_Lounge.png'),
@@ -92,10 +92,10 @@ Recognition: BWS Architects`
                                 require('../../Images/ProjectGallery/I - 1001-1001 (Bradley)/1001-1001_RES_15_Office.png'),
                             ],
                             desc: `14,000 sf Single Family Residence
-Expertise: #constructiondocs #BIM #FF&E #detailing #visualization #finefinishes 
+Expertise: #constructiondocs #BIM #FF&E #detailing #visualization #finefinishes
 Recognition: Axelrod Architects`
                         },
-                        { 
+                        {
                             name: 'Axelrod', id: 2, image: require('../../Images/PhotoMatrix/I-1001-1002.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/I - 1001-1002 (Source P)/1001-1002-IP-03.jpg'),
@@ -117,7 +117,7 @@ Recognition: Axelrod Architects`
 Expertise: #constructiondocs #retail #fitness #designdevelopment
 Recognition: Axelrod Architects`
                         },
-                        { 
+                        {
                             name: 'Renovation', id: 3, image: require('../../Images/ProjectGallery/I - 1012-1001 (BigD)/1012-1001-IP-03-3rd_FL-Conf_01.png'),
                             images: [
                                 require('../../Images/ProjectGallery/I - 1012-1001 (BigD)/1012-1001-IP-03-3rd_FL-Conf_01.png'),
@@ -141,7 +141,7 @@ Recognition: Confidential Client`
                 },
                 {
                     name: "dsp.digital", projects: [
-                        { 
+                        {
                             name: 'Axelrod', id: 1, image: require('../../Images/PhotoMatrix/D-1001-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/D - 1001-1001 (Bradley)/1001-1001_SITE_Process.jpg'),
@@ -166,7 +166,7 @@ Recognition: Confidential Client`
 Expertise: #BIM #visualization #digitaldesign #unreal #immersive #flythru
 Recognition: Axelrod Architects`
                         },
-                        { 
+                        {
                             name: 'Renovation', id: 2, image: require('../../Images/PhotoMatrix/D-1012-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/D - 1012-1001 (Big D)/1012-1001-SECT-PERSP-02.gif'),
@@ -181,19 +181,19 @@ Recognition: Axelrod Architects`
 Expertise: #schematic #experiencedesign #branding #generativedesign
 Recognition: Confidential Client`
                         },
-                        { 
+                        {
                             name: 'Bateman', id: 3, image: require('../../Images/PhotoMatrix/D-1013-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/D - 1013-1001 (Bateman)/1013-1001_DIG MATRIX_01.jpg'),
                                 require('../../Images/ProjectGallery/D - 1013-1001 (Bateman)/1013-1001_HBE.gif'),
                                 require('../../Images/ProjectGallery/D - 1013-1001 (Bateman)/1013-1001_RBS.gif'),
-                            ], 
+                            ],
                             desc: `300,000 sf Post-secondary Education Complex
-Expertise: #Revit #BIM 
+Expertise: #Revit #BIM
 Recognition: BWS Architects`
                         },
-                      
-                        { 
+
+                        {
                             name: 'Axelrod', id: 4, image: require('../../Images/PhotoMatrix/D-1001-1002.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/D - 1001-1002 (Source P)/1001-1002-3D AXON-GYM.png'),
@@ -209,14 +209,14 @@ Recognition: BWS Architects`
                                 require('../../Images/ProjectGallery/D - 1001-1002 (Source P)/1001-1002-SH-IP-06.jpg')
                             ],
                             desc: `2845 sf Fitness Center Prototype
-Expertise: #immersive #unreal #colorful 
+Expertise: #immersive #unreal #colorful
 Recognition: Axelrod Architects`
-                        },            
+                        },
                     ]
                 },
                 {
                     name: "dsp.graphics", projects: [
-                        { 
+                        {
                             name: 'dsp design', id: 1, image: require('../../Images/PhotoMatrix/C-1000-1000.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/C-1000-1000 (Graphics)/C-1000-1000.jpg'),
@@ -230,7 +230,7 @@ Expertise: #schematic #experiencedesign #branding #graphics`
                 },
                 {
                     name: "dsp.brand", projects: [
-                        { 
+                        {
                             name: 'Renovation', id: 1, image: require('../../Images/PhotoMatrix/B-1012-1001.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/B - 1012-1001 (BigD)/1012-1001-IP-01-1st_Fl-Rec_Lobby.jpg'),
@@ -239,14 +239,14 @@ Expertise: #schematic #experiencedesign #branding #graphics`
 
                             ],
                             desc: `61,500 sf Office Renovation and Rebranding
-Expertise: #schematic #experiencedesign #branding 
+Expertise: #schematic #experiencedesign #branding
 Recognition: Confidential Client`
                         },
                     ]
                 },
                 {
                     name: "dsp.service", projects: [
-                        { 
+                        {
                             name: 'Lego Serious Play', id: 1, image: require('../../Images/PhotoMatrix/S- 1000-1015-1.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/S - 1000-1015-1 (LSP)/Lego_Serious_Play_2.jpg'),
@@ -255,10 +255,10 @@ Recognition: Confidential Client`
                                 require('../../Images/ProjectGallery/S - 1000-1015-1 (LSP)/Lego_Serious_Play_4.jpg'),
                                 require('../../Images/ProjectGallery/S - 1000-1015-1 (LSP)/Lego_Serious_Play_5.jpg'),
                             ],
-                            desc: `LEGO® Serious Play® methodology is an innovative, experimental process designed to enhance innovation and business performance. (https://www.lego.com/en-us/seriousplay) DSP facilitated LEGO® Serious Play® sessions encourage inclusive team problem solving for all of your team’s toughest questions.  
+                            desc: `LEGO® Serious Play® methodology is an innovative, experimental process designed to enhance innovation and business performance. (https://www.lego.com/en-us/seriousplay) DSP facilitated LEGO® Serious Play® sessions encourage inclusive team problem solving for all of your team’s toughest questions.
 Expertise: #legoseriousplay #teambuilding #play #creativeproblemsolving`
                         },
-                        { 
+                        {
                             name: 'Service Design Process', id: 2, image: require('../../Images/PhotoMatrix/S- 1000-1015-2.jpg'),
                             images: [
                                 require('../../Images/ProjectGallery/S- 1000-1015-2 (SDP)/SD_Service Mapping.jpg'),
@@ -289,12 +289,12 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
             this.setState({ selectedService: this.state.services[0] });
         }
     }
-    
+
     updateSettings(settings) {
         this.state.selectedService.projects[this.state.tabIndex].images.length < settings.slidesToShow ? settings.slidesToShow = this.state.selectedService.projects[this.state.tabIndex].images.length: settings.slidesToShow = settings.slidesToShow
         return settings;
     }
-    
+
     componentWillUnmount() {
         localStorage.removeItem('entity-project');
     }
@@ -336,7 +336,7 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
 
         return (
             <React.Fragment>
-                { Object.keys(this.state.selectedService).length ? 
+                { Object.keys(this.state.selectedService).length ?
                     <React.Fragment>
                     <div className="row gallery-background m-0">
                         <div className="col-xs-12 col-md-11 panel-div">
@@ -354,11 +354,11 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
                                                 <div style={{ textAlign: 'right', color: 'white' }}>
                                                     <p className='f-sm'> { project.name } </p>
                                                 </div>
-                                            </Tab>  
+                                            </Tab>
                                         ))
                                     }
                                 </TabList>
-                                { 
+                                {
                                     this.state.selectedService.projects.map((project, index) => (
                                         <TabPanel key={index}>
                                             <div className="row" style={{ margin: "20px 0px" }}>
@@ -376,8 +376,9 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
                         <div className="col-xs-12 col-sm-6 col-sm-push-6 vcenter">
                             {  }
                             {/* {console.log(settings)} */}
+                            console.log(settings)
                             <Slider style={{ padding: '16px'}} key={this.state.tabIndex} {...this.updateSettings(settings)}>
-                                { 
+                                {
                                     this.state.selectedService.projects[this.state.tabIndex].images.map((image, index) => (
                                         <div key={index} >
                                             <div className="gallery-slider-image">
@@ -394,7 +395,7 @@ Expertise: #servicedesign #journeymap #serviceprototype #persona #collaboration`
                             </pre>
                         </div>
                     </div>
-                    </React.Fragment> : null } 
+                    </React.Fragment> : null }
             </React.Fragment>
         );
     }

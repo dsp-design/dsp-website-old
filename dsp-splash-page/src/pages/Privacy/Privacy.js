@@ -3,10 +3,6 @@ import "./css/privacy.css";
 import "./css/mediaPeople.css";
 
 class Privacy extends Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		return (
 			<div id="peopleBackground">

@@ -125,7 +125,7 @@ class NavBar extends Component {
 					</div>
 				</div>
 
-				<Link to="/blog" id="navBlogButton">blog and news!</Link>
+				<Link to="/blog" id="navBlogButton" onClick={() => this.trueList()}>blog and news!</Link>
 
 			</div>
 		)

@@ -1,0 +1,31 @@
+.slantTop {
+    margin-bottom: 7vh;
+    padding: 5vh 15vw 10vh 19.5vw;
+    font-size: 150%;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+    animation: slantTitle 2s ease-out .5s forwards;
+}
+
+@keyframes slantTitle {
+    from {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    }
+}
+
+#topSlant {
+    margin-bottom: 3vh;
+    height: 12vh;
+    width: 100%;
+    transform: translateY(-6vh);
+    animation: slantDarkBlue 2s ease-out .5s forwards;
+}
+
+@keyframes slantDarkBlue {
+    to {
+        transform: translateY(-6vh) skewY(3deg);
+    }
+}
+

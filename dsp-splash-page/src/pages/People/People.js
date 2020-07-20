@@ -80,7 +80,7 @@ class People extends Component {
 				<div id="peopleTop" className="nightBlue-background">
 					<div id="aboutUs" className="slateWhite-text">we are . . . <span id="aboutUsBreak">design service professionals</span></div>
 <div id="aboutUsPara" className="aboutUsPara">
-					Our purpose... to create work-life opportunities for talented designers coast to coast; to establish a moce of design that values collaboration above ege; to elevate the best in our clients, so we can achieve more together.</div>
+					Our purpose... to create work-life opportunities for talented designers coast to coast; to establish a mode of design that values collaboration above ego; to elevate the best in our clients, so we can achieve more together.</div>
 				</div>
 				<div id="peoplePicBox">
 					{this.state.people.map((person, i) => (

@@ -121,7 +121,7 @@ class NavBar extends Component {
 						<a href="https://twitter.com/dspdesignUSA" target="blank"><i className="fab fa-twitter"></i></a>
 						<a id="emailAddress" className="link" href="tel:+15108722133" ><img src={require('./assets/images/PhoneIcon.png')} height="14px" width="14px" /></a>
 						<a href="mailto:hello@dsp.design"><i className="far fa-envelope"></i></a>
-						<Link to="/blog">blog</Link>
+						<Link to="/blog" onClick={() => this.trueList()} >blog</Link>
 					</div>
 				</div>
 

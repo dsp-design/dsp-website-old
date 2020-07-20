@@ -131,3 +131,9 @@
         padding: 43vh 7vw 8vh !important;
     }
 }
+
+@media (max-width: 576px) {
+	.peopleTagline {
+	    font-size: 14px;
+	}
+}

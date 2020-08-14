@@ -1,5 +1,5 @@
 .jobWrapper {
-    margin-bottom: 50px;
+	padding: 0vh 0vw 0vh 18vw;
 }
 
 .panel, 
@@ -98,4 +98,41 @@ a:hover {
 
 .remindButton {
     float: left;
+}
+
+.slantInfoWrapperLess {
+    padding: 3vw 6vw 6vw!important;
+}
+
+.padd-less {
+	padding: 2vw;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .jobWrapper {
+		margin-bottom: 50px;
+	}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  	.jobWrapper {
+		margin-bottom: 50px;
+		padding: 5vh 0vw 11vh 18vw;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+ .jobWrapper {
+		margin-bottom: 50px;
+		padding: 5vh 0vw 11vh 18vw;
+	}
+
 }

@@ -29,15 +29,14 @@ class JobList extends Component {
 				{this.state.jobs.slice(0, 2).map((job, i) => (
 					<div className="jobWrapper">
 						<Panel eventKey={i}>
-							<Panel.Title id="listTitle" className="almostBlack-text slantTitle link" toggle><span id="listTitleBorder">{job.title}</span></Panel.Title>
-							<div className="slantInfoWrapper almostBlack-text">
-								<Panel.Title id="oneLineTitle" className="infoWords link" toggle>{job.oneLine}</Panel.Title>
-
-								<Panel.Body collapsible>
+							<span id="listTitleBorder">{job.title}</span>
+							<div className="slantInfoWrapper almostBlack-text slantInfoWrapperLess">
+							<div class="padd-less bg-white">
+								<div id="oneLineTitle" className="infoWords link">{job.oneLine}</div>
 									<div>{job.description}</div>
-									<Link to={"/joinus/" + job.button} className="applyButton jobButton">see available {job.button} positions</Link >
+									<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu' className="applyButton jobButton" target="_blank" >see available positions</a >
 									<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
-								</Panel.Body>
+								</div>
 							</div>
 						</Panel>
 					</div>
@@ -48,15 +47,14 @@ class JobList extends Component {
 						{this.state.jobs.slice(2, 4).map((job, i) => (
 							<div className="jobWrapper">
 								<Panel eventKey={i}>
-									<Panel.Title id="listTitleWhite" className="slateWhite-text slantTitle link" toggle><span id="listTitleWhiteBorder">{job.title}</span></Panel.Title>
-									<div className="slantInfoWrapper slateWhite-text">
-										<Panel.Title id="oneLineTitleWhite" className="infoWords link" toggle>{job.oneLine}</Panel.Title>
-
-										<Panel.Body collapsible>
+									<div id="listTitleWhite" className="slateWhite-text slantTitle link"><span id="listTitleWhiteBorder">{job.title}</span></div>
+									<div className="slantInfoWrapper slateWhite-text slantInfoWrapperLess">
+									<div class="padd-less">
+										<div id="oneLineTitleWhite" className="infoWords link">{job.oneLine}</div>
 											<div id="oneLineTitleWhite">{job.description}</div>
-											<Link to={"/joinus/" + job.button} className="applyButton jobButton">see available {job.button} positions</Link >
+											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
 											<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
-										</Panel.Body>
+									</div>
 									</div>
 								</Panel>
 							</div>
@@ -67,15 +65,14 @@ class JobList extends Component {
 				{this.state.jobs.slice(4, 6).map((job, i) => (
 					<div className="jobWrapper">
 						<Panel eventKey={i}>
-							<Panel.Title id="listTitle" className="almostBlack-text slantTitle link" toggle><span id="listTitleBorder">{job.title}</span></Panel.Title>
-							<div className="slantInfoWrapper almostBlack-text">
-								<Panel.Title id="oneLineTitle" className="infoWords link" toggle>{job.oneLine}</Panel.Title>
-
-								<Panel.Body collapsible>
+							<div id="listTitle" className="almostBlack-text slantTitle link"><span id="listTitleBorder">{job.title}</span></div>
+							<div className="slantInfoWrapper almostBlack-text slantInfoWrapperLess">
+							<div class="padd-less bg-white">
+								<div id="oneLineTitle" className="infoWords link">{job.oneLine}</div>
 									<div>{job.description}</div>
-									<Link to={"/joinus/" + job.button} className="applyButton jobButton">see available {job.button} positions</Link >
+									<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
 									<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
-								</Panel.Body>
+							</div>
 							</div>
 						</Panel>
 					</div>
@@ -86,15 +83,14 @@ class JobList extends Component {
 						{this.state.jobs.slice(6).map((job, i) => (
 							<div className="jobWrapper">
 								<Panel eventKey={i}>
-									<Panel.Title id="listTitleWhite" className="slateWhite-text slantTitle link" toggle><span id="listTitleWhiteBorder">{job.title}</span></Panel.Title>
-									<div className="slantInfoWrapper slateWhite-text">
-										<Panel.Title id="oneLineTitleWhite" className="infoWords link" toggle>{job.oneLine}</Panel.Title>
-
-										<Panel.Body collapsible>
+									<div id="listTitleWhite" className="slateWhite-text slantTitle link"><span id="listTitleWhiteBorder">{job.title}</span></div>
+									<div className="slantInfoWrapper slateWhite-text slantInfoWrapperLess">
+									<div class="padd-less">
+										<div id="oneLineTitleWhite" className="infoWords link">{job.oneLine}</div>
 											<div id="oneLineTitleWhite">{job.description}</div>
-											<Link to={"/joinus/" + job.button} className="applyButton jobButton">see available {job.button} positions</Link >
+											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
 											<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
-										</Panel.Body>
+									</div>
 									</div>
 								</Panel>
 							</div>

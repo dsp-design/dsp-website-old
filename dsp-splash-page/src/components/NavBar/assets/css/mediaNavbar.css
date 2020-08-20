@@ -111,7 +111,7 @@
 
     #socialIconWrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         width: 15em;
         margin-left: 5em;
     }
@@ -123,6 +123,7 @@
     #navPLLC,
     .socialIcon {
         color: #a9a9af;
+        padding-left: 1em;
     }
 
     #emailAddress:hover,

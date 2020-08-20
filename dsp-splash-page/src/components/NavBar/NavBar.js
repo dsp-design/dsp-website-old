@@ -88,10 +88,13 @@ class NavBar extends Component {
 					<div id="navFooter" className="mt-3" >
 
 						<div id="socialIconWrapper" style={{ marginTop: '10px' }}>
-						{ this.state.emailShow ? "hello@dsp.design" : null }
-						{ this.state.PhoneShow ? " 510.872.2133 " : null }
-							<a id="phoneIcon" className="link socialIcon" onClick={ () => { this.setState({ PhoneShow: !this.state.PhoneShow }); }} ><img src={require('./assets/images/PhoneIcon.png')} style={{ marginBottom: '-3px' }} height="13px" width="13px" /> </a>
-							<a id="emailIcon" className="link socialIcon" onClick={ () => { this.setState({ emailShow: !this.state.emailShow }); }}><i className="far fa-envelope"></i> </a>
+							<p  className="link socialIcon">
+								{ this.state.emailShow ? " hello@dsp.design " : null }
+								{ this.state.PhoneShow ? " 510.872.2133 " : null }
+							</p>
+							<a id="phoneIcon" className="link socialIcon" onClick={ () => { this.setState({ PhoneShow: !this.state.PhoneShow }); this.setState({ emailShow: false }); }} ><i className="fas fa-phone"></i></a>
+							<a id="emailIcon" className="link socialIcon" onClick={ () => { this.setState({ emailShow: !this.state.emailShow });  this.setState({PhoneShow:false}); }}><i className="far fa-envelope"></i> </a>
+							
 							<a href="https://www.linkedin.com/company/designserviceprofessionalspllc/" className="link socialIcon" target="blank"><i className="fab fa-linkedin-in"></i></a>
 							<a href="https://www.instagram.com/dsp.design_virtual/" className="link socialIcon" target="blank"><i className="fab fa-instagram"></i></a>
 							<a href="https://www.facebook.com/dspdesignvirtual/" className="link socialIcon" target="blank"><i className="fab fa-facebook"></i></a>

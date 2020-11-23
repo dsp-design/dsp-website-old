@@ -25,6 +25,10 @@ import Clients from "./pages/Clients";
 import DesignBuild from "./pages/Clients/DesignBuild";
 import LargeCompany from "./pages/Clients/LargeCompany";
 import BoutiquePractice from "./pages/Clients/BoutiquePractice";
+
+// Calculator
+import Calculator  from "./pages/Calculator"
+
 // Trifolds
 import BPtrifold from "./pages/Clients/BoutiquePractice/BPtrifold";
 import DBtrifold from "./pages/Clients/DesignBuild/DBtrifold";
@@ -111,6 +115,10 @@ class App extends Component {
               <Route exact path="/clients/boutiquepractice" component={BoutiquePractice} />
               <Route exact path="/clients/designbuild" component={DesignBuild} />
               <Route exact path="/clients/largecompany" component={LargeCompany} />
+
+              {/* Calculator */}
+              <Route exact path="/calculator" component={Calculator} />
+
               {/* Trifolds */}
               <Route exact path="/clients/boutiquepractice/trifold" component={BPtrifold} />
               <Route exact path="/clients/designbuild/trifold" component={DBtrifold} />

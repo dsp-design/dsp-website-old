@@ -2,10 +2,10 @@
 	padding: 0vh 0vw 0vh 18vw;
 }
 
-.panel, 
-.panel-body, 
+.panel,
+.panel-body,
 .panel-heading,
-.panel-title, 
+.panel-title,
 .panel-default>.panel-heading {
     border: none;
     background: none;

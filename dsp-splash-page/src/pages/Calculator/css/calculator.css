@@ -1,0 +1,255 @@
+/* The sidebar menu */
+.sidenav {
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-y: auto; /* Disable horizontal scroll */
+    padding: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    height: 85vh;
+    box-shadow: 1px 1px 5px 1px #757579;
+  }
+  .grid-container {
+    display:grid;
+    grid-template-columns: repeat(2,3fr 2fr 1fr);
+    grid-gap: 1em;
+    padding-bottom: 1em;
+  }
+  .row-head {
+    padding: 1em 0;
+  }
+  .grid-item {
+    height: 21px;
+  }
+  .blue-title {
+    background-color: #a2c8e5;
+  }
+  .green-title {
+    background-color: #b8d093;
+  }
+  .yellow-title  {
+    background-color: #e3df92;
+  }
+  .red-title {
+    background-color: #cc9ab0;
+  }
+  .orange-title {
+    background-color: #efd5bf;
+  }
+  .dark-yellow-title {
+    background-color: #e3d4bb;
+  }
+  .teal-title {
+    background-color: #a0cfc5;
+  }
+  .blue-content {
+    background-color: #a2c8e5;
+  }
+  .green-content {
+    background-color: #dbe6c9;
+  }
+  .yellow-content  {
+    background-color: #f1efc8;
+  }
+  .red-content {
+    background-color: #e5ccd7;
+  }
+  .orange-content {
+    background-color: #f7eadf;
+  }
+  .dark-yellow-content {
+    background-color: #f1eadd;
+  }
+  .teal-content {
+    background-color: #a0cfc5;
+  }
+  .calculator {
+    max-height: auto;
+  }
+  @media only screen and (max-width: 1200px) {
+    .sidenav {
+      position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+      padding: 1em;
+      bottom: 9vh;
+      max-height: 25vh;
+      overflow: auto;
+      border: 2px solid #818181;
+      border-radius: 2px;
+      margin: auto;
+      height: auto;
+    }
+    .grid-item-x {
+      display: none;
+    }
+    .grid-container {
+      display:grid;
+      grid-template-columns:3fr 2fr 1fr;
+      
+    }
+    .control-label {
+      padding-top: 7px;
+      margin-bottom: 0;
+      text-align: right;
+    }
+    .grid-item {
+      height: auto;
+    }
+    .calculator {
+      min-height: 68vh;
+    }
+  }
+  .sidenav::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  .sidenav::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .sidenav::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.selected {
+    background-color: #eee;
+}
+  .border {
+      border: 1px solid #818181;
+      padding-left: 1em;
+      padding-right: 1em;
+      border-radius: 4px;
+  }
+  .side-label {
+      text-align: left;
+      padding: 7px;
+  }
+  .mx-1 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+  .my-1 {
+      margin-top:  1em ;
+      margin-bottom: 1em;
+  }
+  .p-2 {
+    padding: 2em
+}
+  .p-1 {
+      padding: 1em
+  }
+  .p-1-4 {
+    padding: 0.25em
+}
+  .panel-sub-title {
+      padding: 10px;
+      margin-bottom: 1em;
+      max-width: fit-content;
+  }
+  .panel-sub-title-2 {
+    padding: 10px;
+    margin-bottom: 1em;
+}
+  .heading {
+      font-size: large;
+  }
+  .heading-block {
+    max-width: fit-content;
+    margin: 2em auto;
+  }
+  .margin-bot  {
+      margin-bottom: 10vh
+  }
+  .testLabels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labelers  {
+    display: block;
+    width: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 1em;
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  margin-bottom: 8px;
+  background: #D3D3D3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.pyforce {
+  padding: 1px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  background: #FF0000;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 25px;
+  background: #FF0000;
+  cursor: pointer;
+}
+
+.testLabels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.testLabels div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1px;
+  background: #D3D3D3;
+  height: 10px;
+  line-height: 40px;
+  margin: 0 0 20px 0;
+}
+.left-text{
+  text-align: left;
+}
+/* select::-ms-expand {	display: none; }
+select{
+    -webkit-appearance: none;
+    appearance: none;
+} */
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

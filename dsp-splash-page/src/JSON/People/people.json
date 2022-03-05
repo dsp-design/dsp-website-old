@@ -1,0 +1,128 @@
+[
+    {
+        "id": 0,
+        "picture": "/peopleImages/amy.png",
+        "sketch": "/peopleImages/amy-sketch.png",
+        "name": "Amy John",
+        "title": "Design Integrator",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Amy is a Service Designer with over 5 years of industry experience working primarily with retail and professional service providers. Amy is a design integrator using design strategy to create holistically sustainable service experiences.</p><br/><p class='peopleInfoQuote'>“Knowledge and cake are always better when shared– especially at the same time.”</p>"
+    },
+    {
+        "id": 1,
+        "picture": "/peopleImages/deborah.png",
+        "sketch": "/peopleImages/deborah-sketch.png",
+        "name": "Deborah Killpack",
+        "title": "Team Wrangler",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Deborah is a Virtual Office Administrator with over 20 years of industry experience working primarily on finance management, team management, builder-based interior design and various other human resource projects. Deborah is organized, adaptable, and perceptive, balancing a natural design sense with an analytical approach.</p><br/><p class='peopleInfoQuote'>“Dwell in possibility”</p>"
+    },
+    {
+        "id": 2,
+        "picture": "/peopleImages/devan.png",
+        "sketch": "/peopleImages/devan-sketch.png",
+        "name": "Devan Porter",
+        "title": "Augmentalist",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Devan is an Architect with over 15 years of industry experience working primarily on commercial office, institutional, and various other hospitality projects. Devan is a tech expert, employing digital design and virtual reality to be your workplace guru.</p><br/><p class='peopleInfoQuote'>“We exist to deliver your best work. High impact projects, thorough design communication, and stellar tools means we thrive together.”</p>"
+    },
+    {
+        "id": 3,
+        "picture": "/peopleImages/shane.png",
+        "sketch": "/peopleImages/shane-sketch.png",
+        "name": "Shane Sumsion",
+        "title": "Master Visualizer",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Shane is a Design Visualization Specialist with over 5 years of industry experience working primarily on residential, and institutional and various other commercial office and hospitality projects. Shane is an expert in interactive arts, using 3D illustration, virtual reality, and product visualization.</p><br/><p class='peopleInfoQuote'>“I am driven by seeing systems and groups use disparate tools and processes to do better – to do more.”</p>"
+    },
+    {
+        "id": 4,
+        "picture": "/peopleImages/stacy.png",
+        "sketch": "/peopleImages/stacy-sketch.png",
+        "name": "Stacy Traeden",
+        "title": "Team Protector",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Stacy is a Virtual Office Administrator with over 15 years of industry experience working primarily on project coordination, administrative management, and various other human resource projects. Stacy is passionate about project management and coordination utilizing her knowledge of relational database design and data reporting to provide a well-organized project experience.</p><br/><p class='peopleInfoQuote'>“Choose a job you love, and you will never have to work a day in your life.”</p>"
+    },
+    {
+        "id": 5,
+        "picture": "/peopleImages/olivia.png",
+        "sketch": "/peopleImages/olivia-sketch.png",
+        "name": "Olivia Porter",
+        "title": "In-house Humanist",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Olivia is an attorney with experience working in various areas of the law, including business formation, criminal, and immigration law. Olivia is passionate about improving efficiency, encouraging ethical decision-making, and helping people and businesses progress.</p><br/><p class='peopleInfoQuote'>“Strength and struggle travel together. The supreme reward of struggle is strength. Life is a battle and the greatest joy is to overcome. The pursuit of easy things makes men weak.”</p>"
+    },
+    {
+        "id": 6,
+        "picture": "/peopleImages/kara.png",
+        "sketch": "/peopleImages/kara-sketch.png",
+        "name": "Kara Hladky",
+        "title": "Design Whisperer",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Kara is an Interior Designer with over 10 years of industry experience working primarily on hospitality and various other residential and commercial office projects. Kara is design innovator and sourcing and custom millwork expert with a focus on hospitality.</p><br/><p class='peopleInfoQuote'>“My strong desire to connect with and understand the world leaves me equally inspired by arts &amp; culture and the beauty of everyday objects.”</p>"
+    },
+    {
+        "id": 7,
+        "picture": "/peopleImages/adam.png",
+        "sketch": "/peopleImages/adam-sketch.png",
+        "name": "Adam Nicholes",
+        "title": "BIM Evangelist",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Adam is a BIM Manager with over 20 years of industry experience working primarily on institutional, educational, and various other commercial projects. Adam is solution-focused, task-orientated, information-driven, with a collaborative mindset.</p><br/><p class='peopleInfoQuote'>“If I’m not helping you do your job better or making it easier, I’m not doing my job.”</p>"
+    },
+    {
+        "id": 8,
+        "picture": "/peopleImages/dianne.png",
+        "sketch": "/peopleImages/dianne-sketch.png",
+        "name": "Dianne Becker",
+        "title": "IT Aficionado",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Dianne is an IT Manager with over 25 years of industry experience working primarily with small firms as an IT Generalist Manager or managing global teams remotely for large e-commerce companies.  Dianne has a wide range of experience from working on high profile projects with Fortune 500 clients to training and supporting end-users as needed. Dianne manages and supports DSP’s systems, software, staff, and clients with Information Technology.</p><br/><p class='peopleInfoQuote'><i>“It’s exciting to be part of a great team of talented professionals from everywhere. No limits on where we are and what we can do!”</i></p>"
+    },
+    {
+        "id": 9,
+        "picture": "/peopleImages/norma.png",
+        "sketch": "/peopleImages/norma-sketch.png",
+        "name": "Norma Roles",
+        "title": "Design Sage",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Norma is an Interior Designer with over 30 years of industry experience working primarily on institutional, commercial office, and various other hospitality projects. Norma is a healthcare and space planning expert with a focus on materials and finishes and FF&amp;E.</p><br/><p class='peopleInfoQuote'>“Best designed, easiest to build, beautiful in pictures, even better in real life.”</p>"
+    },
+    {
+        "id": 10,
+        "picture": "/peopleImages/ellis.png",
+        "sketch": "/peopleImages/ellis-sketch.png",
+        "name": "Ellis Dionisio",
+        "title": "Doc Guy",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Ellis is a Technical Specialist with over 15 years of industry experience working primarily on institutional, commercial office, residential, and various other hospitality projects. Ellis is an architecture and interiors expert with a talent for architecture photography, hand drawing, and hand detailing.</p><br/><p class='peopleInfoQuote'>“I am a confident, enthusiastic person with keen interest in my profession.”</p>"
+    },
+    {
+        "id": 11,
+        "picture": "/peopleImages/adamS.png",
+        "sketch": "/peopleImages/adamS-sketch.png",
+        "name": "Adam Simmons",
+        "title": "Innovation Station",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Adam is a BIM Manager with over 10 years of industry experience working primarily on institutional, commercial office, and  various other residential and hospitality projects. Adam is a problem solving, tech implementer and team strategist who prioritizes process.</p><br/><p class='peopleInfoQuote'>“I help solve big problems with meaningful process and appropriate technology”</p>"
+    },
+    {
+        "id": 12,
+        "picture": "/peopleImages/joe.png",
+        "sketch": "/peopleImages/joe-sketch.png",
+        "name": "Joe Moore",
+        "title": "Concept Realizer",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Joe is an Architect with over 20 years of industry experience working primarily on commercial office, residential, hospitality, and institutional projects. Joe is an experienced project manager with a focus on virtual reality, digital design, and workplace design.</p><br/><p class='peopleInfoQuote'>“Throughout my life I have been drawn to the built environment and a thirst to understand what makes it work.”</p>"
+    },
+    {
+        "id": 13,
+        "picture": "/peopleImages/jeff.png",
+        "sketch": "/peopleImages/jeff-sketch.png",
+        "name": "Jeff Nunez",
+        "title": "Bridge Builder",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Jeff is a Job Captain and Business Developer with over 5 years of industry experience working primarily on commercial, institutional, and residential projects. Jeff’s focus on workplace culture and relationship building makes him business marketing specialist who uses design to solve complex challenges in this evolving profession.</p><br/><p class='peopleInfoQuote'>“I love making people laugh and sharing stories. Together we can continually push for new adventures– and eat a lot of food.”</p>"
+    }
+]

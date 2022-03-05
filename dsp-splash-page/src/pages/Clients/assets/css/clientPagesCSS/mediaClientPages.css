@@ -1,0 +1,92 @@
+@media (min-width: 43em) {
+    .clientPageContentWrapper {
+        padding: 0 15vw;
+    }
+    
+    #clientPageStep0,
+    #clientPageStepWords0 {
+        margin-right: 28vw;
+    }
+
+    #clientPageStep1,
+    #clientPageStepWords1 {
+        margin-right: 21vw;
+        margin-left: 7vw;
+    }
+
+    #clientPageStep2,
+    #clientPageStepWords2 {
+        margin-right: 14vw;
+        margin-left: 14vw;
+    }
+
+    #clientPageStep3,
+    #clientPageStepWords3 {
+        margin-right: 7vw;
+        margin-left: 21vw;
+    }
+
+    #clientPageStep4,
+    #clientPageStepWords4 {
+        margin-left: 28vw;
+    }
+
+    #clientPageStep4 {
+        margin-bottom: 0;
+    }
+
+    .clientPageGraphic {
+        width: 85vw;
+    }
+
+    #clientPageFourCs {
+        width: 80vw;
+    }
+
+    .clientPageServiceWrapper {
+        flex-flow: row;
+    }
+
+    .clientPageService {
+        margin-bottom: 0;
+    }
+
+    .miniTrifold {
+        height: 20vw;
+    }
+
+}
+
+@media (min-width: 59em) {
+    #clientPageFourCs {
+        width: 70vw;
+    }
+
+    .miniTrifold {
+        height: 15vw;
+    }
+}
+
+@media (min-width: 68em) {
+    .clientPageContentWrapper {
+        padding: 0 20vw;
+    }
+
+    .clientPageGraphic {
+        width: 75vw;
+    }
+
+    .miniTrifold {
+        right: 3em;
+    }
+}
+
+@media (min-width: 75em) {
+    .clientPageGraphic {
+        width: 60vw;
+    }
+
+    #clientPageFourCs {
+        width: 50vw;
+    }
+}

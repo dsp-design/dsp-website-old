@@ -1,0 +1,33 @@
+.slick-arrow.slick-prev{
+    color: #000;
+    left:0;
+    z-index:1;
+}
+.slick-arrow.slick-next{
+    color: #000;
+    right:0;
+    z-index: 1;
+}
+
+.slick-arrow.slick-next:before,.slick-arrow.slick-prev:before{
+    opacity: 1;
+    color:#000;
+    font-size: x-large; 
+}
+.cat-head {
+    color: #f4f7fc;
+    font-size: 20px;
+    padding: 10px
+}
+.slider-p {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.allow {
+    cursor: pointer;
+}
+.not-allow {
+    cursor: not-allowed;
+    color: red;
+}

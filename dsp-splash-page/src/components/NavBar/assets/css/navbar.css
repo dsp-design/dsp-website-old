@@ -1,0 +1,298 @@
+#nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1vh 8vw;
+    box-shadow: 0 -1px 5px #757579;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+#navImage {
+    text-align: center;
+}
+
+#navLogo {
+    height: 6vh;
+}
+
+#navCenter {
+    flex: 0;
+}
+
+.navHidden {
+    visibility: hidden;    
+}
+
+.navHide {
+    animation: navHide 1s forwards;
+}
+
+@keyframes navHide {
+    to {
+        visibility: hidden;
+    }
+}
+
+.navShow {
+    visibility: visible;
+}
+
+#navSlantGrow,
+#navSlantShrink {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55vw;
+    clip-path: polygon(46% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#navSlantGrow {
+    animation: navSlantGrow 1s forwards;
+}
+
+@keyframes navSlantGrow {
+    from {
+        height: 0;
+    }
+    to {
+        height: 11em;
+    }
+}
+
+#navSlantShrink {
+    animation: navSlantShrink 1s forwards;
+}
+
+@keyframes navSlantShrink {
+    from {
+        height: 11em;
+    }
+    to {
+        height: 0;
+    }
+
+}
+
+.navQs {
+    position: absolute;
+    font-family: 'Codystar', cursive;
+    font-size: 80%;
+    font-weight: 900;
+}
+
+.navQs,
+.navQs:active,
+.navQs:visited,
+.navQs:focus {
+    color: #f4f7fc;
+}
+
+.navQsShow,
+#footerJoinShow {
+    opacity: 0;
+    animation: navQsShow 1s .5s forwards;
+}
+
+@keyframes navQsShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navQsHide,
+#footerJoinHide {
+    animation: navQsHide 0.2s forwards;
+}
+
+.navPrivacy {
+    color: #a9a9af;
+    font-family: 'Corbel', sans-serif !important;
+}
+
+.navPrivacy:hover {
+    color: #333132;
+}
+
+@keyframes navQsHide {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#about {
+    bottom: 11.5em;
+    left: 72vw;
+}
+
+#approach {
+    bottom: 9.5em;
+    left: 68vw;
+}
+
+#clients {
+    bottom: 7.5em;
+    left: 64vw;
+}
+
+#services {
+    bottom: 5.5em;
+    left: 60vw;
+}
+
+#joinus {
+    bottom: 3.5em;
+    left: 56vw;
+}
+
+#privacy {
+    bottom: 1.5em;
+    left: 52vw;
+}
+
+#navFooter {
+    display: none;
+}
+
+#navHamburger {
+    position: relative;
+    height: 1em;
+    width: 1.5em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.hamLine {
+    width: 100%;
+    height: 1.5px;
+}
+
+#hamX1 {
+    background-color: #f4f7fc;
+    animation: hamX1 .5s forwards;
+}
+
+@keyframes hamX1 {
+    to {
+        transform: translateY(475%) rotate(45deg);
+    }
+}
+
+#ham-1 {
+    animation: ham-1 .5s forwards;
+}
+
+@keyframes ham-1 {
+    from {
+        transform: translateY(475%) rotate(45deg);
+    }
+    to {
+        transform: none;
+    }
+}
+
+#hamLineInvisible {
+    display: none;
+}
+
+#ham-2 {
+    animation: navQsShow .5s forwards;
+}
+
+#hamX3 {
+    background-color: #f4f7fc;
+    animation: hamX3 .5s forwards;
+}
+
+@keyframes hamX3 {
+    to {
+        transform: translateY(-475%) rotate(-45deg);
+    }
+}
+
+#ham-3 {
+    animation: ham-3 .5s forwards;
+}
+
+@keyframes ham-3 {
+    from {
+        transform: translateY(-475%) rotate(-45deg);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.link,
+.link:active,
+.link:visited,
+.link:focus,
+.link:hover {
+    text-decoration: none;
+}
+
+#navSocialWrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navSocial {
+    display: flex;
+    padding: .5em .25em;
+    border-top: 15px solid #9bc8e8;
+    border-radius: 10px;
+}
+
+.socialScroll {
+    animation: social .5s linear forwards;
+}
+
+@keyframes social {
+    from {
+        margin-bottom: -2em;
+    }
+    to {
+        margin-bottom: 0;
+    }
+}
+
+.socialCloseScroll {
+    margin-bottom: -2em;
+    animation: socialClose .5s linear forwards;
+}
+
+@keyframes socialClose {
+    from {
+        margin-bottom: 0;
+    }
+    to {
+        margin-bottom: -2em;        
+    }
+}
+
+#navSocial a {
+    margin: 0 .40em;
+    color: #a9a9af;
+}
+
+#navSocial a:hover {
+    color: #757579;
+}
+
+#navBlogButton {
+    display: none;
+}

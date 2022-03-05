@@ -1,0 +1,48 @@
+.yourThingBackground {
+    padding: 100px 0 0 15%;
+    height: 95vh;
+}
+
+.yourTitleWrapper {
+    margin-bottom: 50px;
+}
+
+.yourThingWords {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Codystar', cursive;
+}
+
+.yourButton {
+    color: #404051;
+    text-decoration: none;
+    background-color: #f4f7fc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f4f7fc;
+}
+
+.yourButton:hover {
+    text-decoration: none;
+    background-color: #182939;
+    color: #f4f7fc;
+}
+
+.button {
+    margin-bottom: 50px;
+}
+
+.yourDescription {
+    font-size: 125%;
+    line-height: 1.5;
+}
+
+.highlighted {
+    padding: 0 3px;
+}
+
+@media (max-width: 768px) {
+    .yourWordBreak {
+        display: block;
+    }
+}

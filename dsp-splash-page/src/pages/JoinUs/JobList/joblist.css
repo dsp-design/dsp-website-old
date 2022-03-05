@@ -1,0 +1,138 @@
+.jobWrapper {
+	padding: 0vh 0vw 0vh 18vw;
+}
+
+.panel,
+.panel-body,
+.panel-heading,
+.panel-title,
+.panel-default>.panel-heading {
+    border: none;
+    background: none;
+    box-shadow: none;
+    color: #757579;
+    text-decoration: none;
+}
+
+a,
+a:active,
+a:visited,
+a:focus,
+a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#listTitle {
+    font-size: 125%;
+}
+
+#listTitleBorder {
+    color: #333132;
+    padding: .25em;
+    border: 1px solid #333132;
+    border-radius: 5px;
+}
+
+#listTitleBorder:hover {
+    color: #f9f1ee;
+}
+
+#listTitleBorder:hover,
+#listTitleWhiteBorder:hover {
+    background-color: #333132;
+}
+
+#listTitleWhite {
+    font-size: 125%;
+}
+
+#listTitleWhiteBorder {
+    color: #f4f7fc;
+    padding: .25em;
+    border: 1px solid #f9f1ee;
+    border-radius: 5px;
+}
+
+#oneLineTitle {
+    margin-top: 2vh;
+}
+
+#oneLineTitle:hover {
+    color: #333132;
+}
+
+#oneLineTitleWhite {
+    margin-top: 2vh;
+    color: #f4f7fc;
+}
+
+#oneLineTitleWhite:hover {
+    color: #f9f1ee;
+}
+
+.jobButton {
+    color: #f4f7fc;
+    text-decoration: none;
+    background-color: #404051;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 70%;
+    margin: 25px 15px 0 0;
+    border: 1px solid #404051;
+}
+
+.jobButton:hover {
+    text-decoration: none;
+    background-color: #f4f7fc;
+    color: #404051;
+}
+
+.listDescription:hover {
+    color: #333132;
+}
+
+.applyButton {
+    float: left;
+}
+
+.remindButton {
+    float: left;
+}
+
+.slantInfoWrapperLess {
+    padding: 3vw 6vw 6vw!important;
+}
+
+.padd-less {
+	padding: 2vw;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .jobWrapper {
+		margin-bottom: 50px;
+	}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  	.jobWrapper {
+		margin-bottom: 50px;
+		padding: 5vh 0vw 11vh 18vw;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+ .jobWrapper {
+		margin-bottom: 50px;
+		padding: 5vh 0vw 11vh 18vw;
+	}
+
+}

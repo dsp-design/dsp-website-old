@@ -1,0 +1,174 @@
+#clientPageBanner {
+    width: 70vw;
+    background-color: #757579;
+    padding: .5em 1.5em 0;
+    border-radius: 5px;
+}
+
+#clientPageWrapper {
+    padding-bottom: 20vh;
+}
+
+.clientPageContentWrapper {
+    padding: 0 5vw;
+}
+
+.clientPageSteptitle {
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* color: #f4f7fc !important; */
+}
+
+.step {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#clientPageStep0 > a,
+#clientPageStep1 > a,
+#clientPageStep2 > a,
+#clientPageStep3 > a,
+#clientPageStep4 > a
+{
+    color: #f4f7fc !important;
+    display: block;
+}
+
+#clientPageStep0 {
+    margin-top: 5vh;
+    background-color: #33313277;
+}
+
+
+#clientPageStep1 {
+    background-color: #3331329a;
+}
+
+
+#clientPageStep2 {
+    background-color: #333132b6;
+}
+
+#clientPageStep3 {
+    background-color: #333132d5;
+}
+
+#clientPageStep4 {
+    background-color: #333132;
+}
+
+.clientPageStepInfo {
+    margin-bottom: 3vh;
+}
+
+.alignClientPagePic {
+    text-align: center;
+    margin: 10vh auto;
+}
+
+#clientPageProcessPic,
+#clientPageFourCs,
+.clientPageGraphic {
+    background-color: #f4f7fc;
+    box-shadow: 0 0 10px #757579;
+    width: 95vw;
+    margin: auto;
+    padding: 4px;
+}
+
+.clientPageServiceWrapper {
+    margin-bottom: 3vh;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px black;
+    padding: 1vh;
+}
+
+.clientPageService {
+    flex: 1;
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    font-size: 120%;
+    margin-bottom: 1vh;
+}
+
+.clientPageOfferedService {
+    flex: 3;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.clientPageOfferedOne {
+    padding: 3px 5px;
+    margin: .5em 0;
+}
+
+.clientPageOfferedTrue {
+    padding: 3px 5px;
+    background-color: #757579;
+}
+
+.clientPageOfferedFalse {
+    padding: 3px 5px;
+    box-shadow: inset 2px 3px 5px black;
+}
+
+#clientPageCurrent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#clientPageCurrentBox {
+    height: 1em;
+    width: 1em;
+    margin-right: .5em;
+    background-color: #757579;
+}
+
+.miniTrifold {
+    position: fixed;
+    top: 1.5em;
+    right: 2em;
+    height: 25vw;
+    box-shadow: 0 0 5px #333132;
+    transform: rotate(-10deg);
+    z-index: 998;
+}
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+.panel-title > a:before {
+	-webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+	float: right !important;
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 2em;
+	content: "\f106";
+
+    line-height: 1;
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    font-family: FontAwesome;
+    font-weight: 900;
+    font-size: 2em;
+    content: "\f107";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus  {
+    text-decoration:none;
+}

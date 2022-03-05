@@ -1,0 +1,38 @@
+.dsBackground {
+    padding-bottom: 20vh;
+}
+
+.dsInfoColumn {
+    display: inline-block;
+    width: 100%;
+    font-size: 110%;
+    margin: 1.5vh 0;
+}
+
+.centeredPopup {
+    display: inline-block;
+}
+
+.darkDSInfoTrigger {
+    color: #757579;
+}
+
+.darkDSInfoTrigger:hover,
+.darkDSInfoTrigger:focus {
+    color: #333132;
+}
+
+.whiteDSInfoTrigger {
+    color: #faf7ee;
+}
+
+.whiteDSInfoTrigger:hover,
+.whiteDSInfoTrigger:focus {
+    color: #f4d5bb;
+}
+
+.popupWords {
+    font-size: 60%;
+    line-height: 1.5;
+}
+

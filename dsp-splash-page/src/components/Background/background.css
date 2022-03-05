@@ -1,0 +1,12 @@
+#background {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(./hex-background.png);
+    background-size: 180vh;
+}
+
+#background::after {
+    content: "";
+    display: block;
+    clear: both;
+}

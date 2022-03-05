@@ -1,0 +1,188 @@
+@media (min-width: 31em) {
+    #navSlantGrow,
+    #navSlantShrink {
+        width: 40vw;
+        clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    #about {
+        left: 73vw;
+    }
+
+    #approach {
+        left: 71vw;
+    }
+
+    #clients {
+        left: 69vw;
+    }
+
+    #services {
+        left: 67vw;
+    }
+
+    #joinus {
+        left: 65vw;
+    }
+
+    #privacy {
+        left: 63vw;
+    }
+}
+
+@media (min-width: 34em) and (max-height: 34em) {
+    #navLogo {
+        height: 9vh;
+    }
+}
+
+@media (min-width: 63.25em) {
+    .navHidden,
+    .navHide,
+    .navShow {
+        visibility: visible;
+        animation: none;
+    }
+
+    #navSlant,
+    #navSlantGrow,
+    #navSlantShrink,
+    #navHamburger {
+        display: none;
+        animation: none;
+    }
+
+    .navQs,
+    #navFooter {
+        position: initial;
+        display: initial;
+    }
+
+    .navQsShow,
+    #footerJoinShow,
+    .navQsHide,
+    #footerJoinHide {
+        opacity: 1;
+        animation: none;
+    }
+
+    #navPLLC {
+        display: initial;
+    }
+
+    #nav {
+        padding: 1vh 13vw;
+    }
+
+    #navImage {
+        flex: 1;
+    }
+
+    #navCenter {
+        flex: 4;
+        height: 5vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    #navWords {
+        display: flex;
+        justify-content: space-around;
+        font-size: 120%;
+    }
+
+    .navQs,
+    .navQs:active,
+    .navQs:visited,
+    .navQs:focus {
+        color: #757579;
+    }
+
+    .navQs:hover {
+        color: #333132;
+    }
+
+    #navFooter {
+        display: flex;
+        justify-content: space-between;
+        font-size: 70%;
+    }
+
+    #socialIconWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 15em;
+        margin-left: 5em;
+    }
+
+    #emailAddress,
+    #footerJoin,
+    #footerJoinShow,
+    #footerJoinHide,
+    #navPLLC,
+    .socialIcon {
+        color: #a9a9af;
+        padding-left: 1em;
+    }
+
+    #emailAddress:hover,
+    #footerJoin:hover,
+    #emailIcon:hover,
+    #footerJoinShow:hover,
+    #footerJoinHide:hover,
+    .socialIcon:hover {
+        color: #757579;
+    }
+
+    #navSocialWrapper {
+        display: none;
+    }
+
+    #navBlogButton,
+    #navBlogButton:active,
+    #navBlogButton:visited,
+    #navBlogButton:focus {
+        display: initial;
+        background-color: #b2d08d;
+        color: #f4f7fc;
+        margin-left: 2vw;
+        padding: .25em;
+        border-radius: 5px;
+        transform: rotate(-6deg);
+        box-shadow: 1px 2px 5px #757579;
+    }
+
+    #navBlogButton:hover {
+        background-color: #f4f7fc;
+        color: #b2d08d;
+    }
+}
+
+@media (min-width: 75em) {
+    #navLogo {
+        height: 7vh;
+    }
+
+    #navFooter {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 81em) {
+    #nav {
+        padding: 1vh 17vw;
+    }
+}
+
+@media (min-width: 96em) {
+    #nav {
+        padding: 1vh 22vw;
+    }
+}
+
+@media (min-width: 114em) {
+    #nav {
+        padding: 1vh 26vw;
+    }
+}

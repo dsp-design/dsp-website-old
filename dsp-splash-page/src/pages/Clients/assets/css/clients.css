@@ -1,0 +1,53 @@
+.clientBackground {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.loadedImageBackground {
+    background-color: #b4cbdb;
+}
+
+#clientImgLoadCheck {
+    display: none;
+}
+
+#design-buildCompany {
+    flex: 100vw;
+    background-image: url(../images/your-project-crafted.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salmon {
+    background-color: #a35f5fcc;
+}
+
+#largeCompany {
+    flex: 100vw;
+    background-image: url(../images/your-staff-augmented.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-5vh);
+    clip-path: polygon(0 0, 100% 5vh, 100% 100%, 0 100%);
+}
+
+.skyblue {
+    background-color: #6a889ec5;
+}
+
+#boutiqueCompany {
+    flex: 100vw;
+    background-image: url(../images/your-brand-elevated.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-10vh);
+    clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%);
+}
+
+.greenyellow {
+    background-color: #849b66ce;
+}
+

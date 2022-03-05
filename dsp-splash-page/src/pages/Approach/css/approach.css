@@ -1,0 +1,34 @@
+#approachParagraph {
+    margin-bottom: 15px;
+    font-size: 120%;
+    line-height: 1.2;
+}
+
+.infoWords {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.approachLeadingWord {
+    font-size: 115%;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 104%;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #757579;
+}
+
+.infoWords {        
+    margin-bottom: 3vh;
+}
+

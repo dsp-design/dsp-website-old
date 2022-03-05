@@ -1,0 +1,170 @@
+body {
+    font-family: 'Corbel', sans-serif;
+}
+
+html {
+    background-color: #f4f7fc;
+}
+
+/* Background Colors */
+.almostBlack-background,
+#almostBlack-background {
+    background-color: #333132;
+}
+
+.charcoalish-background,
+#charcoalish-background {
+    background-color: #757579;
+}
+
+.mediumGrey-background,
+#mediumGrey-background {
+    background-color: #bbbabc;
+}
+
+.lightGrey-background,
+#lightGrey-background {
+    background-color: #e2e1e3;
+}
+
+.slateWhite-background,
+#slateWhite-background {
+    background-color: #f4f7fc;
+}
+
+.nightBlue-background,
+#nightBlue-background {
+    background-color: #1b2c3a;
+}
+
+.teal-background,
+#teal-background {
+    background-color: #92d3c7;
+}
+
+.ivory-background,
+#ivory-background {
+    background-color: #faf7ee;
+}
+
+.lightPink-background,
+#lightPink-background {
+    background-color: #f9f1ee;
+}
+
+.darkPink-background,
+#darkPink-background {
+    background-color: #d398c4;
+}
+
+.darkBeige-background,
+#darkBeige-background {
+    background-color: #f4d5bb;
+}
+
+.skyBlue-background,
+#skyBlue-background {
+    background-color: #9bc8e8;
+}
+
+.green-background,
+#green-background {
+    background-color: #b2d08d;
+}
+
+.salmon-background,
+#salmon-background {
+    background-color: #d37c7c;
+}
+
+.yellow-background,
+#yellow-background {
+    background-color: #e5e094;
+}
+
+.orange-background,
+#orange-background {
+    background-color: #d89c86;
+}
+
+
+/* Text Colors */
+.almostBlack-text,
+#almostBlack-text {
+    color: #333132;
+}
+
+.charcoalish-text,
+#charcoalish-text {
+    color: #757579;
+}
+
+.mediumGrey-text,
+#mediumGrey-text {
+    color: #bbbabc;
+}
+
+.lightGrey-text,
+#lightGrey-text {
+    color: #e2e1e3;
+}
+
+.slateWhite-text,
+#slateWhite-text {
+    color: #f4f7fc;
+}
+
+.nightBlue-text,
+#nightBlue-text {
+    color: #1b2c3a;
+}
+
+.teal-text,
+#teal-text {
+    color: #92d3c7;
+}
+
+.ivory-text,
+#ivory-text {
+    color: #faf7ee;
+}
+
+.lightPink-text,
+#lightPink-text {
+    color: #f9f1ee;
+}
+
+.darkPink-text,
+#darkPink-text {
+    color: #d398c4;
+}
+
+.darkBeige-text,
+#darkBeige-text {
+    color: #f4d5bb;
+}
+
+.skyBlue-text,
+#skyBlue-text {
+    color: #9bc8e8;
+}
+
+.green-text,
+#green-text {
+    color: #b2d08d;
+}
+
+.salmon-text,
+#salmon-text {
+    color: #d37c7c;
+}
+
+.yellow-text,
+#yellow-text {
+    color: #e5e094;
+}
+
+.orange-text,
+#orange-text {
+    color: #d89c86;
+}

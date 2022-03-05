@@ -1,0 +1,37 @@
+[
+    {
+        "link": "interiors",
+        "umbrella": "dsp.interiors",
+        "specific": "space planning · tenant improvement · test fits · experiential design · design strategy · sustainable design · art curation · textile design"
+    },
+    {
+        "link": "architecture",
+        "umbrella": "dsp.architecture",
+        "specific": "site design · buildings · campuses · master planning · sustainable design · landscape design"
+    },
+    {
+        "link": "",
+        "umbrella": "dsp.graphics",
+        "specific": "product design · web design · UI/UX · app design · graphic design"
+    },
+    {
+        "link": "digital",
+        "umbrella": "dsp.digital",
+        "specific": "VR/AR design · architectural renderings · 3D CAD renderings · generative design · paramentric modeling · game design · animation design · motion graphics"
+    },
+    {
+        "link": "",
+        "umbrella": "dsp.brand",
+        "specific": "signage and wayfinding · digital experience · event environments · pop-ups"
+    },
+    {
+        "link": "service",
+        "umbrella": "dsp.service",
+        "specific": "design strategy · visioning · ethnographic research · service design · system mapping · sustainability"
+    },
+    {
+        "link": "",
+        "umbrella": "dsp.industrial",
+        "specific": "industrial design · furniture design · mass market · consumer electronics · sustainability"
+    }
+]

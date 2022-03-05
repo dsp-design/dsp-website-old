@@ -1,0 +1,88 @@
+#homepage {
+    height: 92vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeHalf {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#homeSlant {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background-color: #1b2c3a;
+    animation: homeSlant 4s ease-out .5s forwards;
+}
+
+@keyframes homeSlant {
+    to {
+        transform: skewY(9deg);
+    }
+}
+
+#homeLogo {
+    height: 38%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#homeLogoIcon {
+    width: 10em;
+    opacity: 0;
+    animation: rotateLogo 4s ease-out .5s forwards;
+}
+
+@keyframes rotateLogo {
+    0% {
+        opacity: 0;
+        transform: scale(.25) rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(180deg);
+    }
+}
+
+#homeWords {
+    height: 40%;
+    padding: 7vh 10vw 0;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0;
+    animation: wordAppearVert 4s .5s forwards;
+}
+
+@keyframes wordAppearVert {
+    from {
+        opacity: 0;
+        transform: translateY(-20vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
+.homeTagline {
+    font-size: 89%;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Codystar', cursive;
+}
+
+#dspTag {
+    /* margin-left: -1em; */
+    margin-bottom: 1em;
+}
+

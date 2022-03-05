@@ -1,0 +1,198 @@
+#virtualTagLine {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 170%;
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+}
+
+#virtually {
+    font-size: 130%;
+    color: #9bc8e8;
+}
+
+#mapDots {
+    position: relative;
+    width: 85vw;
+    margin: 0 auto 9vh;
+}
+
+#outline {
+    width: 85vw;
+}
+
+.dots {
+    position: absolute;
+}
+
+.dotWait {
+    display: none;
+}
+
+.dot {
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+}
+
+.locationNames {
+    padding: 2px 3px;
+    border-radius: 5px;
+    font-size: 85%;
+}
+
+#sanFran {
+    top: 0;
+    left: 0;
+    padding: 23.5% 0 0 1%;
+}
+
+.sanFran:hover {
+    background-color: #9bc8e8;
+}
+
+.sanFranHidden {
+    display: none;
+}
+
+.sanFranShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#sl {
+    top: 0;
+    left: 0;
+    padding: 19.5% 0 0 19.4%;
+}
+
+.sl:hover {
+    background-color: #9bc8e8;
+}
+
+.slHidden {
+    visibility: hidden;
+}
+
+.slShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#phx {
+    top: 0;
+    left: 0;
+    padding: 37% 0 0 18.5%;
+}
+
+.phx:hover {
+    background-color: #9bc8e8;
+}
+
+.phxHidden {
+    visibility: hidden;
+}
+
+.phxShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#minn {
+    top: 0;
+    left: 0;
+    padding: 13% 0 0 54%;
+}
+
+.minn:hover {
+    background-color: #9bc8e8;
+}
+
+.minnHidden {
+    visibility: hidden;
+}
+
+.minnShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#austin {
+    top: 0;
+    left: 0;
+    padding: 48% 0 0 45%;
+}
+
+.austin:hover {
+    background-color: #9bc8e8;
+}
+
+.austinHidden {
+    visibility: hidden;
+}
+
+.austinShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#chi {
+    top: 0;
+    left: 0;
+    padding: 22% 0 0 63.5%;
+}
+
+.chi:hover {
+    background-color: #9bc8e8;
+}
+
+.chiHidden {
+    visibility: hidden;
+}
+
+.chiShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#atl {
+    top: 0;
+    left: 0;
+    padding: 40% 0 0 73%;
+}
+
+.atl:hover {
+    background-color: #9bc8e8;
+}
+
+.atlHidden {
+    visibility: hidden;
+}
+
+.atlShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+#brooklyn {
+    top: 0;
+    left: 0;
+    padding: 20% 0 0 89%;
+}
+
+.brooklyn:hover {
+    background-color: #9bc8e8;
+}
+
+.brooklynHidden {
+    visibility: hidden;
+}
+
+.brooklynShow {
+    animation: showCity .5s ease-out forwards;
+}
+
+@keyframes showCity {
+    from {
+        opacity: 0;
+        transform: scale(1.3) translate(1vw);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.3) translate(2vw);
+    }
+}
+

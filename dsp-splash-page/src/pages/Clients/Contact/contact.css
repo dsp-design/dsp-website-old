@@ -1,0 +1,22 @@
+.center {
+    padding: 0 25%;
+}
+
+#contact {
+    width: 100%;
+    min-height: 250vh;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+#newForm {
+    border: none;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+@media (max-width: 768px) { 
+    .center {
+        padding: 0;
+    }
+}

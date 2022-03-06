@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./css/privacy.css";
-import "./css/mediaPeople.css";
 
 class Privacy extends Component {
 	render() {

@@ -7,7 +7,7 @@ import Slider from 'react-slick';
 import "./css/photomatrix.css";
 
 import { scroller } from 'react-scroll';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 class PhotoMatrix extends Component {
     state = {
@@ -126,10 +126,7 @@ class PhotoMatrix extends Component {
             ]
         };
         return (
-            <div className="charcoalish-background" style={{ paddingBottom: 60 }}>
-                <Link to="/designservices">
-                    <p className="cat-head"><span style={{ borderRadius: 25, background: 'black', marginRight: 5, padding: 2}}><i class="fas fa-arrow-left"></i></span>back to dsp.design services</p> 
-                </Link>
+            <>
                 {
                     this.state.services.map((service, index) => (
                         <Row style={{ margin: 0}} key={index}>
@@ -142,8 +139,8 @@ class PhotoMatrix extends Component {
                                         service.projects.map((item, index) => (
                                             <div key={index} >
                                                 <div  style={{ margin: '20px'}}>
-                                                    <a className = { item.id ? `allow`: `not-allow` } onClick={(e) => item.id ? this.moveToGallery(e,service.name, item.id): () => e.preventDefault() } style={{  color: '#141415' }}>
-                                                        <img src={item.image} alt="DSP" style={{ height: 'auto', maxWidth:"100%" }} />
+                                                    <a className = { item.id ? `allow`: `not-allow` } href={"/photogallery/"+service.name} style={{  color: '#141415' }}>
+                                                        {item.id ? <img src={item.image.default} alt="DSP" style={{ height: 'auto', maxWidth:"100%" }} />: <img src="https://dummyimage.com/900x506/fffcf2/fff.png&text=+" alt="" style={{ height: 'auto', maxWidth:"100%" }}/>}
                                                         <div className="caption">
                                                             <p className="slider-p">{item.name}</p>
                                                         </div>
@@ -157,7 +154,7 @@ class PhotoMatrix extends Component {
                         </Row>
                     ))
                 }
-            </div>
+            </>
         )
     }
 };

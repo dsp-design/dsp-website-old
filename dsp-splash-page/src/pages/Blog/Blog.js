@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SlantTop from "../../components/SlantTop";
+import { v4 as uuid } from 'uuid';
 
 import "./css/blog.css";
 import "./css/mediaBlog.css";
 
 class Blog extends Component {
+
     state = {
-        categories: ["design", "service", "professionals", "virtual-office", "events"]
+        categories: ["design", "service", "virtual-office", "events"]
     }
 
     render() {
@@ -23,11 +25,13 @@ class Blog extends Component {
                     <div id="blogCategoryWrapper" className="slateWhite-background">
                         <div id="blogCategoryTitle">
                             <div>topics</div>
-                            <Link to="/blog" id="blogHomeButton" className="link" onClick={() => this.trueList()}>blog home</Link>
+                            {/* to={{ pathname: "/about", sectionProps: "whoweare", key: uuid() }} */}
+                            {/* <Link to="/blog" id="blogHomeButton" className="link">blog home</Link> */}
+                            <a id="blogHomeButton" className="link" onClick={() => {window.location.href="/blog"}}>blog home</a>
                         </div>
                         <div id="topicsWrapper">
                             {this.state.categories.map(cat =>
-                                <Link to={`/blog?c=${cat}`} className="link blogTopic" onClick={() => this.trueList()}>{cat}</Link>
+                                <a className="link blogTopic" onClick={() => {window.location.href=`/blog?c=${cat}`}}>{cat}</a>
                             )}
                         </div>
                     </div>

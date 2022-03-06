@@ -1,0 +1,34 @@
+.hovercard-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hovercard-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hovercard-body{
+    padding: 20px 0;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    margin: 30px 0;
+}
+.redBox{
+    background-color: #f28165;
+}
+.blueBox{
+    background-color: #5fafdc;
+}
+.greenBox{
+    background-color: #86bc4b;
+}
+.line-holder{
+    padding: 30px 0;
+}
+.tooltip{
+    width: 250px;
+    padding: 20px;
+}

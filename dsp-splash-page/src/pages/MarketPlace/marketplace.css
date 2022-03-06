@@ -1,0 +1,9 @@
+.x-btn-container {
+    min-width: 200px;
+}
+.header-img-marketplace{
+    background: url(../../Images/marketplace/00_MarketplaceMain_01.jpeg)  center/cover no-repeat;
+}
+.opacity50{
+    opacity: 0.5;
+}

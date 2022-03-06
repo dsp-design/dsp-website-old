@@ -1,0 +1,36 @@
+* {
+    color: #1e3b38;
+}
+.header-img{
+    padding-top: 30vh;
+    background: linear-gradient(90deg, rgba(95,175,220,0.15) 0%,  rgba(95,175,220,0.15) 40%,rgba(0,0,0,0) 40%,  rgba(0,0,0,0) 100%), url(/images/servicepage/MainHeader_01.png) bottom/cover no-repeat;
+}
+
+.header-main {
+    margin:auto;
+    width: 80%;
+    padding: 8em;
+    background-color: rgba(254, 252, 251, 0.55);
+    background: linear-gradient(90deg, rgba(254,252,251,0.55) 0%,  rgba(254,252,251,0.55) 50%,rgba(0,0,0,0) 50%,  rgba(0,0,0,0) 100%) no-repeat;
+}
+
+.header-text > p {
+    width: fit-content;
+    font-size: 1.8em;
+    font-weight: bolder;
+    padding-bottom: 1.6em;
+    padding-right: 1em;
+    border-bottom: #5fafdc 0.3em solid ;
+
+}
+.header-text-description {
+    padding: 1em 0;
+}
+
+.header-text-description > p {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: normal;
+    width: 50%;
+    margin-right: 8em;
+}

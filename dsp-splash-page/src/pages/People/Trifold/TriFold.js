@@ -11,8 +11,8 @@ class TriFold extends Component {
   state = {}
   render() {
     return (
-      <React.Fragment>
-        <Grid>
+
+        <Grid bsClass="trifold-container">
           <Row className="show-grid">
             <Col xs={4} md={4} className="text-right">
             <Link to="../clients/designbuild/trifold">
@@ -31,24 +31,6 @@ class TriFold extends Component {
             </Col>
           </Row>
         </Grid>
-        {/* <div>
-          <div className='col-4 my-2 text-right'>
-            <Link to="../clients/designbuild/trifold">
-              <img src={trifold1} alt="trifold" className="miniTrifold" style={{ position: "initial" }} />
-            </Link>
-          </div>
-          <div className='col-4 my-2 text-center'>
-            <Link to="../clients/largecompany/trifold">
-              <img src={trifold2} alt="trifold" className="miniTrifold" style={{ position: "initial" }} />
-            </Link>
-          </div>
-          <div className='col-4 my-2 text-left'>
-            <Link to="../clients/boutiquepractice/trifold">
-              <img src={trifold3} alt="trifold" className="miniTrifold" style={{ position: "initial" }} />
-            </Link>
-          </div>
-        </div> */}
-      </React.Fragment>
     );
   }
 }

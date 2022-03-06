@@ -247,8 +247,8 @@ class DesignBuild extends Component {
 
                 </div>
 
-                <div id="triLeftArrow" className="triArrow charcoalish-text" onClick={() => this.handleTrifoldReverse()}><i class="fas fa-chevron-left"></i></div>
-                <div id="triRightArrow" className="triArrow charcoalish-text" onClick={() => this.handleTrifold()}><i class="fas fa-chevron-right"></i></div>
+                <div id="triLeftArrow" className="triArrow charcoalish-text" onClick={() => this.handleTrifoldReverse()}><i className="fas fa-chevron-left"></i></div>
+                <div id="triRightArrow" className="triArrow charcoalish-text" onClick={() => this.handleTrifold()}><i className="fas fa-chevron-right"></i></div>
             </div>
         )
     };

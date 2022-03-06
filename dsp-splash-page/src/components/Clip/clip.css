@@ -1,0 +1,63 @@
+.clip-bg{
+    padding: 20px;
+    width: fit-content;
+    height: 100%;
+}
+.clip-bg-blue{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(95,175,220,1) 50%, rgba(95,175,220,1) 100%);
+}
+.clip-bg-green{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(134,188,75,1) 50%, rgba(134,188,75,1) 100%);
+}
+.clip-bg-red{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(242,129,101,1) 50%, rgba(242,129,101,1) 100%);
+}
+.clip-bg-yellow{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, 	
+    rgba(253,225,151,1) 50%, 	
+    rgba(253,225,151,1) 100%);
+}
+.clip-base{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.clip-head{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.8em;
+    align-items: center;
+    padding: 10px;
+}
+.clip-head > i{
+    font-size: 1.8em;
+}
+.clip-head > div{
+    padding-left: 10px;
+}
+.clip-body{
+    padding: 2em 1em;
+    max-width: 300px;
+    line-height: 1.4;
+    text-align: center;
+    height: 100%;
+}
+.clip-body-red{
+    background-color: #f7f0f5;
+}
+.clip-body-green{
+    background-color: #f3fdee;
+}
+.clip-body-blue{
+    background-color: #f2faff;
+}
+.clip-body-yellow{
+    background-color: #fffcf2;
+}
+.white-text{
+    color: white;
+}

@@ -1,0 +1,125 @@
+.header-img-flexstaff{
+    background: url(../../Images/ServicePage/FlexStaff_Image_01.png)  center/cover no-repeat;
+}
+.clip-container-4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+.clip-head-4{
+    font-size: 1.4em;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+.grid-engagement{
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    max-width: 1200px;
+    margin-bottom: 1em;
+}
+.steps{
+    display: flex;
+}
+.step-text{
+    padding: 0 10px;
+}
+.text-md{
+    font-size: 24px;
+}
+.panel-calc-3{
+    padding: 0.8em 0 0.8em 0.8em;
+}
+.circle-box{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #c3c0bf;
+    background-color: white;
+}
+.circle-box-active{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #5fafdc;
+    background-color: white;
+}
+.panel-body-2{
+    padding: 5px 20px;
+}
+.mb-1{
+    margin-bottom: 1em;
+}
+.ml-2{
+    margin-left: 50px;
+}
+.p1{
+    padding: 40px 0;
+}
+.steps-span-2{
+    grid-column-start: 2;
+}
+@media only screen and (max-width:1200px) {
+    .clip-container-4{
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-md {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .text-md {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .clip-container-4{
+        grid-template-columns: 1fr;
+    }
+    .grid-engagement{
+        grid-template-columns: 100px auto;
+    }
+    .steps-span-2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media only screen and (max-width:400px) {
+    .grid-engagement{
+        grid-template-columns: auto auto;
+    }
+    .calc-grid-step{
+        grid-template-columns: auto auto;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .circle-box, .circle-box-active{
+        height: 15px;
+        width: 15px;
+        border-radius: 15px;
+    }
+    .circle-box{
+        border-width: 1.5px;
+    }
+    .circle-box-active{
+        border-width: 4px;
+    }
+    .step-text{
+        font-size: 14px;
+    }
+    .text-md-2{
+        font-size: 14px;
+    }
+
+}
+.clip-bg{
+    width: 100%;
+}
+.clip-base{
+    align-items: center;
+}

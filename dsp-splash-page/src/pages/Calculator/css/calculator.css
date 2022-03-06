@@ -1,21 +1,20 @@
 /* The sidebar menu */
-.sidenav {
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    right: 0;
-    overflow-y: auto; /* Disable horizontal scroll */
-    padding: 1em;
-    margin-top: 1em;
-    margin-right: 1em;
-    height: 85vh;
-    box-shadow: 1px 1px 5px 1px #757579;
-  }
+
   .grid-container {
     display:grid;
-    grid-template-columns: repeat(2,3fr 2fr 1fr);
-    grid-gap: 1em;
-    padding-bottom: 1em;
+    grid-template-columns: repeat(2,3fr 1fr 1fr);
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+  .groups-calc{
+    padding: 40px;
+    margin-top: 40px;
+  }
+  .main-container {
+    display:grid;
+    grid-template-columns: auto 300px;
+    row-gap: 0;
+    column-gap: 2em;
   }
   .row-head {
     padding: 1em 0;
@@ -68,37 +67,53 @@
   .calculator {
     max-height: auto;
   }
-  @media only screen and (max-width: 1200px) {
-    .sidenav {
-      position: sticky; /* Fixed Sidebar (stay in place on scroll) */
-      padding: 1em;
-      bottom: 9vh;
-      max-height: 25vh;
-      overflow: auto;
-      border: 2px solid #818181;
-      border-radius: 2px;
-      margin: auto;
-      height: auto;
-    }
-    .grid-item-x {
-      display: none;
-    }
-    .grid-container {
-      display:grid;
-      grid-template-columns:3fr 2fr 1fr;
-      
-    }
-    .control-label {
-      padding-top: 7px;
-      margin-bottom: 0;
-      text-align: right;
-    }
-    .grid-item {
-      height: auto;
-    }
-    .calculator {
-      min-height: 68vh;
-    }
+  .form-control:focus{
+    box-shadow: none;
+
+  }
+  .lightBlueBg{
+    background-color: #f2faff;
+  }
+  .nBlueBg{
+    background-color: #3f89b3;
+  }
+  .darkBlueBg{
+    background-color: #38618c;
+  }
+  .width90{
+    width: 90%;
+    margin: auto;
+  }
+  .offWhite{
+    background-color: #fefcfb;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .calc-grid{
+    display: grid;
+    grid-template-columns: auto  40px;
+  }
+  .greyBg{
+    background-color: #e2e1e3;
+  }
+  .blueBg{
+    background-color: #5fafdc;
+  }
+  .redBg{
+    background-color: #f28165;
+  }
+  .redBorder{
+    border-color: #f28165;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+  }
+  .sidenav{
+    height: 75vh;
+    overflow-y: scroll;
+    width: fit-content;
+    background-color: white;
   }
   .sidenav::-webkit-scrollbar {
     width: 0.5em;
@@ -121,6 +136,20 @@
       padding-right: 1em;
       border-radius: 4px;
   }
+  .border-green {
+    border: 1px solid #86bc4b;
+    border-radius: 4px;
+}
+.border-blue {
+  border: 1px solid #5fafdc;
+  border-radius: 4px;
+}
+  .border-2 {
+    border-radius: 4px;
+}
+.table-text{
+  font-size: smaller;
+}
   .side-label {
       text-align: left;
       padding: 7px;
@@ -192,13 +221,14 @@
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
-  height: 15px;
+  height: 8px;
   margin-bottom: 8px;
   background: #D3D3D3;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+  border-radius: 4px;
 }
 
 .slider:hover {
@@ -206,50 +236,186 @@
 }
 
 .pyforce {
-  padding: 1px;
+  width: 100%;
+  height: 100%;
 }
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 15px;
+  width: 25px;
   height: 25px;
-  background: #FF0000;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  background: #5fafdc;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 15px;
+  width: 25px;
   height: 25px;
-  background: #FF0000;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  background: #5fafdc;
   cursor: pointer;
+}
+.slider::-moz-range-progress{
+  background-color: #86bc4b;
 }
 
 .testLabels {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
 }
-.testLabels div {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 1px;
-  background: #D3D3D3;
-  height: 10px;
-  line-height: 40px;
-  margin: 0 0 20px 0;
+.labels{
+  width: 30px;
 }
 .left-text{
   text-align: left;
 }
+.calc-padding{
+  padding: 25px 10px;
+}
+.sidenav a {
+  font-size: 18px;
+}
+  @media only screen and (max-width: 900px) {
+    .sidenav {
+      position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+      bottom: 9vh;
+      height: 35vh;
+      overflow: auto;
+      margin: auto;
+      min-width: 80%;
+      
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidenav {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+    .grid-item-x {
+      display: none;
+    }
+    .main-container{
+      grid-template-columns: auto;
+    }
+    .grid-container {
+      display:grid;
+      grid-template-columns:3fr 1fr 1fr;
+      
+    }
+    .control-label {
+      padding-top: 7px;
+      margin-bottom: 0;
+      text-align: right;
+    }
+    .grid-item {
+      height: auto;
+    }
+    .calculator {
+      min-height: 68vh;
+    }
+  }
+  
 /* select::-ms-expand {	display: none; }
 select{
     -webkit-appearance: none;
     appearance: none;
 } */
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  @media screen and (max-width: 450px) {
+    
+    
+    .groups-calc{
+      padding: 40px 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
   }
+  .calc-top{
+    height: 40px;
+  }
+  
+  .dredBg{
+    background-color: #d0593b;
+  }
+  .white{
+    color: white
+  }
+  .panel-calc{
+    padding: 1.2em 0;
+    border-radius: 0.2em;
+  }
+  .side-grid{
+    display: grid;
+    row-gap: 10px;
+  }
+  .grid-items-calc{
+    background-color: #f7f0f5;
+    padding: 10px 20px;
+  }
+  .grid-items-start{
+    padding-top: 20px;
+  }
+  .grid-items-end{
+    padding-bottom: 20px;
+  }
+  .calc-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .padding-right{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .calc-header-items{
+    display: flex;
+    align-items: center;
+    font-size: 115%;
+    font-weight: bold;
+  }
+  .panel-calc-2{
+    padding: 1em;
+  }
+  .whiteBg{
+    background-color: white;
+  }
+  .padding-right-2{
+    padding: 5px 25px;
+  }
+  .grid-right{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    row-gap: 8px;
+    column-gap: 10px;
+    margin: 10px  0;
+    align-items: center;
+  }
+  .flex-right{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 0 auto;
+  }
+  .ared-2{
+    font-size: smaller;
+  }
+  .min-width{
+    width: fit-content;
+  }
+  .normal{
+    font-size: 1rem;
+  }
+.py-1{
+  padding: 4px 2px;
+}

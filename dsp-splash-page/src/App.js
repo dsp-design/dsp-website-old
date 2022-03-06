@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./app.css";
+import { v4 as uuid } from 'uuid';
 
 // Pages:
+//Service Page (Added to top for base css)
+import ServicePage  from "./pages/Service"
 // Home
 import Home from "./pages/Home";
 
@@ -12,7 +15,7 @@ import Approach from "./pages/Approach";
 
 
 // About
-import People from "./pages/People";
+import About from "./pages/About";
 import Projects from "./pages/Projects";
 
 
@@ -47,10 +50,9 @@ import PhotoMatrix from "./pages/PhotoMatrix";
 import PhotoGallery from './pages/PhotoGallery';
 
 // Join Us
-import JoinUs from "./pages/JoinUs";
-import JobList from "./pages/JoinUs/JobList";
-import PartnerForm from "./pages/JoinUs/PartnerForm";
-import RemindForm from "./pages/JoinUs/RemindMeLater";
+//import JobList from "./pages/JoinUs/JobList";
+//import PartnerForm from "./pages/JoinUs/PartnerForm";
+//import RemindForm from "./pages/JoinUs/RemindMeLater";
 
 
 // Privacy Policy
@@ -75,6 +77,7 @@ import ServiceForm from "./pages/JoinUs/RecruitForms/ServiceForm";
 import Login from "./pages/LogIn";
 
 
+
 // Components
 import NavBar from "./components/NavBar";
 import NoMatch from "./components/NoMatch";
@@ -83,9 +86,30 @@ import Background from "./components/Background";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from './components/Footer';
+import Architecture from './pages/IceBreakers/components/Architecture';
+import InteriorDesign from './pages/IceBreakers/components/InteriorDesign';
+import DigitalDesign from './pages/IceBreakers/components/DigitalDesign';
+import ServiceDesign from './pages/IceBreakers/components/ServiceDesign';
+import ITAdmin from './pages/IceBreakers/components/ITAdmin';
+import Exibits from './pages/Exibits/Exibits';
+import JoinUs from "./pages/JoinUs";
+import FlexStaff from "./pages/FlexStaff"
+import MarketPlace from "./pages/MarketPlace";
+
+import FSArch from './pages/FullService/components/Architecture';
+import FSBrand from "./pages/FullService/components/Brand";
+import FSInt from './pages/FullService/components/Interior';
+import FSInd from './pages/FullService/components/Industrial';
+import FSDig from './pages/FullService/components/Digital';
+import FSSrv from './pages/FullService/components/Service';
+
+import Bundles from './pages/Bundles/components/Bundles';
+
+import Contacts from './pages/Contacts';
 
 class App extends Component {
-
+  
   render() {
     return (
       <Router>
@@ -98,12 +122,14 @@ class App extends Component {
 
 
               {/* About */}
-              <Route exact path="/about/people" component={People} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/about/projects" component={Projects} />
 
 
               {/* Blog */}
               <Route exact path="/blog" component={Blog} />
+              
+              {/* <Route path="/blog" render={(props) => <Blog {...props} key={uuid()}/>} /> */}
 
 
               {/* Approach */}
@@ -117,7 +143,10 @@ class App extends Component {
               <Route exact path="/clients/largecompany" component={LargeCompany} />
 
               {/* Calculator */}
-              <Route exact path="/calculator" component={Calculator} />
+              {/* <Route exact path="/flex-staff-estimator" component={Calculator} /> */}
+
+              {/* Contacts */}
+              <Route exact path="/contact" component={Contacts} />
 
               {/* Trifolds */}
               <Route exact path="/clients/boutiquepractice/trifold" component={BPtrifold} />
@@ -129,6 +158,12 @@ class App extends Component {
 
               {/* Design Services */}
               <Route exact path="/designservices" component={DesignServices} />
+              {/* Exibits */}
+              <Route  exact path="/exhibits" component={Exibits} />
+              {/* Flex Staff */}
+              <Route  exact path="/flex-staff" component={FlexStaff} />
+              {/* MarketPlace */}
+              <Route exact path="/marketplace" component={MarketPlace} />
 
               {/* PhotoMatrix */}
               <Route exact path="/photomatrix/:id" component={PhotoMatrix} />
@@ -136,9 +171,6 @@ class App extends Component {
               <Route exact path="/photogallery/:id" component={PhotoGallery} />
               {/* Join Us */}
               <Route exact path="/joinus" component={JoinUs} />
-              <Route exact path="/joinus/joblist" component={JobList} />
-              <Route exact path="/joinus/partner" component={PartnerForm} />
-              <Route exact path="/joinus/remind" component={RemindForm} />
 
               {/* Privacy Policy */}
               <Route exact path="/privacy" component={Privacy} />
@@ -156,15 +188,29 @@ class App extends Component {
               <Route exact path="/joinus/management" component={ManagementForm} />
               <Route exact path="/joinus/marketing" component={MarketingForm} />
               <Route exact path="/joinus/service" component={ServiceForm} />
-
+              {/* Service Page */}
+              <Route exact path="/services-home" component={ServicePage} />
+              <Route exact path="/icebreakers-architecture" component={Architecture} />
+              <Route exact path="/icebreakers-interior-design" component={InteriorDesign} />
+              <Route exact path="/icebreakers-digital-design" component={DigitalDesign} />
+              <Route exact path="/icebreakers-admin-design" component={ITAdmin} />
+              <Route exact path="/icebreakers-service-design" component={ServiceDesign} />
+              <Route exact path="/full-service-architecture" component={FSArch} />
+              <Route exact path="/full-service-brand-graphics-design" component={FSBrand} />
+              <Route exact path="/full-service-interior-design" component={FSInt} />
+              <Route exact path="/full-service-industrial-design" component={FSInd} />
+              <Route exact path="/full-service-digital-design" component={FSDig} />
+              <Route exact path="/full-service-design-strategy" component={FSSrv} />
+              <Route exact path="/service-bundles" component={Bundles} />
 
               {/* Log In */}
-              <Route exact path="/login" component={Login} />
+              {/* <Route exact path="/login" component={Login} /> */}
 
               <Route component={NoMatch} />
             </Switch>
+            <Footer />
           </Background>
-
+          
           <NavBar />
 
         </div>

@@ -5,7 +5,13 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.carousel {
+    height: 70vh;
+}
+.dsp-footer{
+    padding: 40px 0;
+    margin-bottom: 10vh;
+}
 .homeHalf {
     width: 100%;
     display: flex;
@@ -39,7 +45,12 @@
     opacity: 0;
     animation: rotateLogo 4s ease-out .5s forwards;
 }
-
+@media only screen and (min-width: 1600px) {
+    .home{
+        width: 1690px;
+        margin: auto;
+    }
+}
 @keyframes rotateLogo {
     0% {
         opacity: 0;

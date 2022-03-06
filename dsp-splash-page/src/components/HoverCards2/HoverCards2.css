@@ -1,0 +1,24 @@
+.hovercard-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hovercard-body{
+    padding: 20px 0;
+}
+.redColor{
+    color: #f28165;
+}
+.blueColor{
+    color: #5fafdc;
+}
+.greenColor{
+    color: #86bc4b;
+}
+.tooltip{
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+.boldText {
+    font-weight: 700;
+}

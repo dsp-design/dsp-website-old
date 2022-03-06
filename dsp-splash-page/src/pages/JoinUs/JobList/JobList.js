@@ -31,10 +31,10 @@ class JobList extends Component {
 						<Panel eventKey={i}>
 							<span id="listTitleBorder">{job.title}</span>
 							<div className="slantInfoWrapper almostBlack-text slantInfoWrapperLess">
-							<div class="padd-less bg-white">
+							<div className="padd-less bg-white">
 								<div id="oneLineTitle" className="infoWords link">{job.oneLine}</div>
 									<div>{job.description}</div>
-									<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu' className="applyButton jobButton" target="_blank" >see available positions</a >
+									<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu' className="applyButton jobButton" target="_blank" rel="noreferrer">see available positions</a >
 									<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
 								</div>
 							</div>
@@ -49,10 +49,10 @@ class JobList extends Component {
 								<Panel eventKey={i}>
 									<div id="listTitleWhite" className="slateWhite-text slantTitle link"><span id="listTitleWhiteBorder">{job.title}</span></div>
 									<div className="slantInfoWrapper slateWhite-text slantInfoWrapperLess">
-									<div class="padd-less">
+									<div className="padd-less">
 										<div id="oneLineTitleWhite" className="infoWords link">{job.oneLine}</div>
 											<div id="oneLineTitleWhite">{job.description}</div>
-											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
+											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank" rel="noreferrer">see available positions</a >
 											<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
 									</div>
 									</div>
@@ -67,10 +67,10 @@ class JobList extends Component {
 						<Panel eventKey={i}>
 							<div id="listTitle" className="almostBlack-text slantTitle link"><span id="listTitleBorder">{job.title}</span></div>
 							<div className="slantInfoWrapper almostBlack-text slantInfoWrapperLess">
-							<div class="padd-less bg-white">
+							<div className="padd-less bg-white">
 								<div id="oneLineTitle" className="infoWords link">{job.oneLine}</div>
 									<div>{job.description}</div>
-									<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
+									<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank" rel="noreferrer">see available positions</a >
 									<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
 							</div>
 							</div>
@@ -85,10 +85,10 @@ class JobList extends Component {
 								<Panel eventKey={i}>
 									<div id="listTitleWhite" className="slateWhite-text slantTitle link"><span id="listTitleWhiteBorder">{job.title}</span></div>
 									<div className="slantInfoWrapper slateWhite-text slantInfoWrapperLess">
-									<div class="padd-less">
+									<div className="padd-less">
 										<div id="oneLineTitleWhite" className="infoWords link">{job.oneLine}</div>
 											<div id="oneLineTitleWhite">{job.description}</div>
-											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank">see available positions</a >
+											<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=kT5uKQ4avk6gVCpvt8uiGCepTbAAZLdPjyv8u_itIaNUMzMwNkdXN0c3OTlZMFg1U1VGWlRJTUQ0NSQlQCN0PWcu" className="applyButton jobButton" target="_blank" rel="noreferrer">see available positions</a >
 											<Link to={"/joinus/remind"} className="applyButton jobButton">remind me to apply later</Link >
 									</div>
 									</div>

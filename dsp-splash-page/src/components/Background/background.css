@@ -1,6 +1,6 @@
 #background {
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url(./hex-background.png);
     background-size: 180vh;
 }

@@ -1,0 +1,61 @@
+.hovercard-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hovercard-body{
+    padding: 20px 0;
+}
+.tooltip{
+    width: 250px;
+    padding: 20px;
+}
+.boldText {
+    font-weight: 700;
+}
+
+.list-container{
+    display: flex;
+}
+.list-item-text{
+    margin: 25px 0;
+}
+.list-item-with-bulletred::before {
+    content: "\25A0";  
+    color: #f28165;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  .list-item-with-bulletgreen::before {
+    content: "\25A0";  
+    color: #86bc4b;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  .list-item-with-bulletblue::before {
+    content: "\25A0";  
+    color: #5fafdc;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+.list-item-with-bar{
+    margin-left: 10px;
+}
+.leftBar{
+    border-left: 3px solid;
+    margin-left: -10px;
+}
+.barContainer{
+    margin: 20px 0;
+}
+.greenBar{
+    border-color: #86bc4b;
+}
+.redBar{
+    border-color: #f28165;
+}

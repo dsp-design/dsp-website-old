@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5vh 4vh 3vh;
+    padding: 30px;
     text-align: center;
     box-shadow: 1px 2px 5px #757579;
 }
@@ -27,7 +27,7 @@
 }
 
 #peoplePicBox {
-    padding: 35vh 5vw 8vh;
+    padding: 30px;
     text-align: center;
 }
 
@@ -49,16 +49,16 @@
 }
 
 .picContainer {
-    width: 45%;
-    display: inline-block;
-    margin-right: 1.6vw;
-    margin-bottom: 5vh;
+    width: 10em;
+    max-width: 200px;
+    padding: 0 1em;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 .peoplePic {
-    width: 27vw;
-    height: 27vw;
+    object-fit: contain;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border: 4px solid white;
@@ -67,6 +67,7 @@
 
 .peopleName {
     font-size: 110%;
+    font-weight: 700;
     padding: 1.5vh 0;
 }
 
@@ -128,12 +129,15 @@
 
 @media (min-width: 300px) and (max-width: 480px) {
     #peoplePicBox {
-        padding: 43vh 7vw 8vh !important;
+        padding: 30px !important;
     }
 }
 
 @media (max-width: 576px) {
 	.peopleTagline {
 	    font-size: 14px;
-	}
+    }
+    .picContainer{
+        max-width: 120px;
+    }
 }

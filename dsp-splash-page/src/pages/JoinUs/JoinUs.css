@@ -1,0 +1,230 @@
+.header-img-joinus{
+    background: url(../../Images/JoinUs/Your-Brand-Connected-Altered.jpg)  center/cover no-repeat;
+}
+.list-container-join{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4em;
+}
+.list-item-with-bullet-join::before {
+    font-size: 2.2em;
+    vertical-align: sub;
+
+}
+.text-large{
+    font-size: 32px;
+    padding: 1.5em 0;
+}
+.left-margin{
+    margin-left: -2em;
+}
+.text-align{
+    line-height: 1.5em;
+    text-align: justify;
+}
+.grid-join-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2em;
+    justify-items: center;
+    padding: 10px 0;
+}
+.grid-join-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    justify-items: center;
+    padding: 10px 0;
+}
+.grid-join-2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    padding:  1em;
+}
+.vertical-center{
+    align-items: center;
+}
+.join-heading{
+    font-size: 32px;
+}
+.list-item-with-bullet-join{
+    font-size: 24px;
+}
+.large-text{
+    font-size: 90px;
+    height: fit-content;
+}
+.join-title-head{
+    font-size: 32px;
+    padding: 10px 0;
+}
+.groups-join{
+    margin-bottom: 0;
+}
+.small-padding{
+    padding: 20px 0;
+}
+.text{
+    line-height: 1.4em;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.grid-gap-2{
+    grid-column-gap: 8em;
+}
+.custom-btn-blue{
+    background-color: #5fafdc;
+    border-color: #5fafdc;
+}
+.custom-btn-green{
+    background-color: #86bc4b;
+    border-color: #86bc4b;
+}
+.join-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.join-img-contain{
+    width: 100%;
+    object-fit: contain;
+}
+.join-icon{
+    width: 100%;
+    margin-top: 40px;
+}
+.no-bg{
+    background-color: transparent;
+}
+.container-large{
+    width: 90%;
+    margin: auto;
+}
+.clip-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+.program-container{
+    display: flex;
+    justify-content: space-between;
+}
+.text-medium{
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+.italics{
+    font-style: italic;
+}
+.no-pad-top{
+    padding-top: 1em;
+}
+.no-pad-bot{
+    padding-bottom: 1em;
+}
+.grid-start{
+    align-items: flex-start;
+}
+.grid-join-4{
+    grid-template-columns: 100px auto;
+    justify-items: left;
+}
+.pl-4{
+    padding-left: 30px;
+}
+.pl-6{
+    padding-left: 50px;
+}
+.grid-line-v{
+    background:linear-gradient(#5fafdc,#5fafdc) center/2px 95% no-repeat;
+}
+.grid-gap-1{
+    column-gap: 1.8em;
+}
+
+.outside-list {
+    list-style-position: outside;
+  }
+
+  .value{
+      padding: 10px 30px;
+      max-width: 300px;
+      display: grid;
+  }
+  .value-img{
+      width: 70%;
+  }
+  .no-pad{
+      padding: 0;
+  }
+  .join-card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.grid-ben{
+    grid-template-columns: 1fr 2fr;
+}
+.grid-auto{
+    grid-template-columns: auto auto;
+}
+.join-us-list{
+    list-style-position: outside;
+    margin-left: 15px;
+}
+@media only screen and (max-width: 1200px){
+    .grid-gap-2{
+        grid-column-gap: 20px;
+    }
+    .grid-gap-1-mobile{
+        column-gap: 0;
+    }
+    .grid-ben{
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width: 900px){
+    .text {
+        font-size: medium;
+    }
+    .grid-mobile{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .list-container-join{
+        grid-template-columns: auto;
+        row-gap: 25px;
+    }
+    .grid-auto{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .grid-mobile{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .grid-line-v{
+        background: none;
+    }
+    .text, .clip-text, .list-item-with-bullet-join{
+        font-size: small;
+    }
+    .left-margin{
+        margin-left: -10px;
+    }
+    .grid-mobile-forced{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    .value{
+        padding: 10px 0;
+    }
+}

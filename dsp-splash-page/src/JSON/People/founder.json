@@ -1,0 +1,42 @@
+[
+    {
+        "id": 102,
+        "picture": "/peopleImages/devan.png",
+        "sketch": "/peopleImages/devan-sketch.png",
+        "current": "/peopleImages/devan-sketch.png",
+        "name": "Devan Porter",
+        "title": "Augmentalist",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Devan is an Architect with over 15 years of industry experience working primarily on commercial office, institutional, and various other hospitality projects. Devan is a tech expert, employing digital design and virtual reality to be your workplace guru.</p><br/><p class='peopleInfoQuote'>“We exist to deliver your best work. High impact projects, thorough design communication, and stellar tools means we thrive together.”</p>"
+    },    
+    {
+        "id": 105,
+        "picture": "/peopleImages/olivia.png",
+        "sketch": "/peopleImages/olivia-sketch.png",
+        "current": "/peopleImages/olivia-sketch.png",
+        "name": "Olivia Porter",
+        "title": "In-house Humanist",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Olivia is an attorney with experience working in various areas of the law, including business formation, criminal, and immigration law. Olivia is passionate about improving efficiency, encouraging ethical decision-making, and helping people and businesses progress.</p><br/><p class='peopleInfoQuote'>“Strength and struggle travel together. The supreme reward of struggle is strength. Life is a battle and the greatest joy is to overcome. The pursuit of easy things makes men weak.”</p>"
+    },
+    {
+        "id": 100,
+        "picture": "/peopleImages/amy.png",
+        "sketch": "/peopleImages/amy-sketch.png",
+        "current": "/peopleImages/amy-sketch.png",
+        "name": "Amy John",
+        "title": "Design Integrator",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Amy is a Service Designer with over 5 years of industry experience working primarily with retail and professional service providers. Amy is a design integrator using design strategy to create holistically sustainable service experiences.</p><br/><p class='peopleInfoQuote'>“Knowledge and cake are always better when shared– especially at the same time.”</p>"
+    },
+    {
+        "id": 111,
+        "picture": "/peopleImages/adamS.png",
+        "sketch": "/peopleImages/adamS-sketch.png",
+        "current": "/peopleImages/adamS-sketch.png",
+        "name": "Adam Simmons",
+        "title": "Innovation Station",
+        "credentials": "Credentials",
+        "about": "<p class='peopleInfo'>Adam is a BIM Manager with over 10 years of industry experience working primarily on institutional, commercial office, and  various other residential and hospitality projects. Adam is a problem solving, tech implementer and team strategist who prioritizes process.</p><br/><p class='peopleInfoQuote'>“I help solve big problems with meaningful process and appropriate technology”</p>"
+    }
+]

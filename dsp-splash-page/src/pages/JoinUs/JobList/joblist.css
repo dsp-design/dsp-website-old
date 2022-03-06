@@ -14,14 +14,7 @@
     text-decoration: none;
 }
 
-a,
-a:active,
-a:visited,
-a:focus,
-a:hover {
-    text-decoration: none;
-    background-color: transparent;
-}
+
 
 #listTitle {
     font-size: 125%;

@@ -1,0 +1,76 @@
+.header-main-exibits{
+    margin: auto;
+    width: fit-content;
+    padding: 6em 12em;
+    background-color: rgba(254, 252, 251, 0.80);
+}
+.header-text-exibits{
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-bottom: 0.8em;
+}
+.header-img-exibits{
+    padding: 140px 0;
+    background: url(../../Images/ServicePage/FlexStaff_Image_01.png)  center/cover no-repeat;
+}
+.hero-img{
+    background: url(../../Images/Exhibits/ExhibitsPage_Header_Image01.png)  center/cover no-repeat;
+}
+.header-text-description-exibits  {
+    font-size: 2.2em;
+    font-weight: 900;
+}
+.groups-head{
+    line-height: 1.4;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.nav-exibits{
+    background-color: #f2faff;
+}
+.exibits-heading{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.img-container-exibits{
+    margin: 0 30px;
+}
+.exibit-img{
+    object-fit: contain;
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .header-main-exibits{
+        width: 80%;
+        padding: 4em;
+    }
+    .header-text-exibits{
+        font-size: 1.4em;
+    }
+    .header-text-description-exibits{
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header-main-exibits{
+        padding: 3em 2em;
+    }
+    .header-text-exibits{
+        font-size: 1.2em;
+    }
+    .header-text-description-exibits{
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header-main-exibits{
+        padding: 2em 1em;
+    }
+    .header-text-exibits{
+        font-size: 1.1em;
+    }
+    .header-text-description-exibits{
+        font-size: 1.3em;
+    }
+}

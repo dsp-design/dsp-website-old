@@ -7,12 +7,13 @@ class DropDown extends Component {
         const elements = ["Role", "Rate", "FTE", "Role", "Rate", "FTE"];
         return (
             <div className="my-1 text-center">
-                <button className={" text-uppercase btn btn-block " + this.props.titleColor + " my-1 border"} onClick={() => this.props.updateDropDown(this.props.dropDownName, !this.props.showData)}> {this.props.title} {this.props.showData ? <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> : <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>}</button>
+                <div className={"panel-calc nBlueBg white boldText pointer calc-grid"} onClick={() => this.props.updateDropDown(this.props.dropDownName, !this.props.showData)}> <div className="white">{this.props.title}</div>
+                 <div>{this.props.showData ? <span className="white glyphicon glyphicon-chevron-up" aria-hidden="true"></span> : <span className="white glyphicon glyphicon-chevron-down" aria-hidden="true"></span>}</div></div>
                 {this.props.showData ?
-                    <div className={this.props.colorScheme + " text-center border"}>
+                    <div className="text offWhite  table-text">
                         <div className="grid-container">
                             {elements.map((value, index) => {
-                                return index > 2 ? <div  className="grid-item row-head" data-tip="React-tooltip" data-for={value.toLowerCase()}>{value}</div> : <div className="grid-item-x row-head" data-tip="React-tooltip" data-for={value.toLowerCase()}>{value}</div>
+                                return index > 2 ? <div  className="grid-item boldText row-head" data-tip="React-tooltip" data-for={value.toLowerCase()}>{value}  {(value==="FTE"? <i className="fas fa-question-circle blueColor"></i>:null)}</div> : <div className="grid-item-x boldText row-head" data-tip="React-tooltip" data-for={value.toLowerCase()}>{value} {(value==="FTE"? <i className="fas fa-question-circle blueColor"></i>:null)}</div>
                             })}
                             <ReactTooltip id="fte" place="top" type="light" effect="float">
                                 <p>FTE = Full Time Equivalent</p>
@@ -28,9 +29,10 @@ class DropDown extends Component {
                             {this.props.data.map((value, index) => {
                                 return (
                                     <>
-                                        <div className={"grid-item sr" + index}><p className={"border p-1-4 " + this.props.colorScheme + " " + (this.props.data[index].selected ? "selected" : "")}>{value.role}</p></div>
-                                        <div className={"grid-item sr" + index}><p data-tip="React-tooltip" data-for={this.props.dropDownName+"rate"+index}  className={"border p-1-4 " + this.props.colorScheme + " " + (this.props.data[index].selected ? "selected" : "")}>{this.props.data[index].selected ? this.props.data[index].calculatedRate+"$" : "RATE"}</p></div>
-                                        <div className={"grid-item sr" + index}><select className={"border pyforce " + this.props.colorScheme + " " + (this.props.data[index].selected ? "selected" : "")} defaultValue={this.props.data[index].FTE} onChange={(e) => this.props.updateFTECallback(this.props.dataTable, index, e.target.value)}>
+                                        <p className={"pyforce border-2 " + (this.props.data[index].selected ? "border-green" :"greyBg")}>{value.role}</p>
+                                        {/* <div className={"grid-item sr" + index}><p data-tip="React-tooltip" data-for={this.props.dropDownName+"rate"+index}  className={"border-2 p-1-4 greyBg " + (this.props.data[index].selected ? "selected" : "")}>{this.props.data[index].selected ? "$"+this.props.data[index].calculatedRate : "$0"}</p></div> */}
+                                        <p  className={"pyforce border-2 " + (this.props.data[index].selected ? "border-green" :"greyBg")}>{this.props.data[index].selected ? "$"+this.props.data[index].calculatedRate : "$0"}</p>
+                                        <select className={"pyforce " + (this.props.data[index].selected ? "border-green" : "border-blue")} defaultValue={this.props.data[index].FTE} onChange={(e) => this.props.updateFTECallback(this.props.dataTable, index, e.target.value)}>
                                             <option value="0">Select</option>
                                             <option value="0.25">0.25</option>
                                             <option value="0.5">0.5</option>
@@ -44,8 +46,6 @@ class DropDown extends Component {
                                             <option value="4.5">4.5</option>
                                             <option value="5">5</option>
                                         </select>
-                                        
-                                        </div>
                                     </>
                                 )
                             })}

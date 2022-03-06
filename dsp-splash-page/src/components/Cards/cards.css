@@ -1,0 +1,98 @@
+.card-main{
+    margin: 30px 30px;
+}
+.cardDsp {
+    padding: 32px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.enlarge{
+    padding: 32px;
+    margin: 50px auto;
+    min-height: 400px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bgRed {
+    background-color: #f28165;
+}
+.bgGreen {
+    background-color: #86bc4b;
+}
+.bgBlue {
+    background-color: #5fafdc;
+}
+.cardHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardIcon{
+    width: 50%;
+}
+.cardTitle{
+    font-size: 20px;
+    color: white;
+    max-width: 100px;
+    padding: 10px;
+}
+.cardBody{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 1.6;
+}
+.btn-custom, .btn-custom:hover{
+    background-color: whitesmoke;
+}
+@media only screen and (max-width: 1440px) {
+    .cardTitle{
+        font-size: 16px;
+    }
+    .cardBody{
+        font-size: 22px;
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .cardDsp{
+        width: 400px;
+        height: 400px;
+    }
+    .cardIcon{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .cardTitle{
+        font-size: 14px;
+    }
+    .cardBody{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .cardDsp{
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+    }
+    .enlarge{
+        min-height: auto;
+    }
+    .cardTitle{
+        font-size: 10px;
+    }
+    .cardBody{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
